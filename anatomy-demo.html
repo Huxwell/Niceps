@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anatomy Demo</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, system-ui, sans-serif; background: #0f1115; color: #e6e8ec; overflow: hidden; }
+  #app { display: flex; height: 100vh; }
+  #scene { flex: 1; position: relative; }
+  #scene canvas { display: block; }
+  #hint { position: absolute; bottom: 12px; left: 12px; font-size: 12px; color: #7a8090; }
+  #side { width: 320px; background: #161922; display: flex; flex-direction: column; border-left: 1px solid #262b38; }
+  #side h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: #8b93a7; padding: 14px 16px; border-bottom: 1px solid #262b38; }
+  #log { flex: 1; overflow-y: auto; padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; }
+  .msg { font-size: 14px; line-height: 1.4; }
+  .msg.user { align-self: flex-end; background: #2f6df4; color: #fff; padding: 8px 12px; border-radius: 12px 12px 2px 12px; max-width: 80%; }
+  .msg.bot { align-self: flex-start; background: #232838; padding: 8px 12px; border-radius: 12px 12px 12px 2px; max-width: 85%; }
+  #inputrow { display: flex; padding: 12px; gap: 8px; border-top: 1px solid #262b38; }
+  #inputrow input { flex: 1; background: #0f1115; border: 1px solid #2c3242; color: #e6e8ec; padding: 10px 12px; border-radius: 8px; font-size: 14px; outline: none; }
+  #inputrow input:focus { border-color: #2f6df4; }
+  #inputrow button { background: #2f6df4; color: #fff; border: none; padding: 0 16px; border-radius: 8px; cursor: pointer; font-size: 14px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; padding: 0 16px 12px; }
+  .chip { font-size: 12px; background: #232838; border: 1px solid #2c3242; color: #b8c0d0; padding: 5px 10px; border-radius: 20px; cursor: pointer; }
+  .chip:hover { border-color: #2f6df4; }
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="scene">
+    <div id="hint">drag to rotate · scroll to zoom</div>
+  </div>
+  <div id="side">
+    <h2>Anatomy Assistant</h2>
+    <div id="log"></div>
+    <div class="chips">
+      <span class="chip" onclick="send('show biceps')">biceps</span>
+      <span class="chip" onclick="send('show deltoid')">deltoid</span>
+      <span class="chip" onclick="send('show pectoralis')">pectoralis</span>
+      <span class="chip" onclick="send('isolate quadriceps')">isolate quad</span>
+      <span class="chip" onclick="send('reset')">reset</span>
+    </div>
+    <div id="inputrow">
+      <input id="inp" placeholder="e.g. highlight the deltoid" onkeydown="if(event.key==='Enter')send()">
+      <button onclick="send()">Send</button>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+// ---- Scene setup ----
+const sceneEl = document.getElementById('scene');
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(45, 1, 0.1, 100);
+camera.position.set(0, 0.5, 6);
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(window.devicePixelRatio);
+sceneEl.appendChild(renderer.domElement);
+
+scene.add(new THREE.AmbientLight(0xffffff, 0.6));
+const key = new THREE.DirectionalLight(0xffffff, 0.9); key.position.set(3, 5, 4); scene.add(key);
+const rim = new THREE.DirectionalLight(0x6688ff, 0.4); rim.position.set(-4, 2, -3); scene.add(rim);
+
+// ---- "Anatomy": named meshes. Bones = pale, muscles = red-ish. ----
+const root = new THREE.Group();
+scene.add(root);
+const parts = {}; // name -> mesh
+
+function muscle(name, geo, x, y, z, ry=0) {
+  const m = new THREE.Mesh(geo, new THREE.MeshStandardMaterial({ color: 0xb0453f, roughness: 0.6, transparent: true, opacity: 1 }));
+  m.position.set(x, y, z); m.rotation.y = ry;
+  m.userData = { name, base: 0xb0453f };
+  parts[name] = m; root.add(m); return m;
+}
+function bone(name, geo, x, y, z) {
+  const m = new THREE.Mesh(geo, new THREE.MeshStandardMaterial({ color: 0xe8e2d0, roughness: 0.5, transparent: true, opacity: 1 }));
+  m.position.set(x, y, z);
+  m.userData = { name, base: 0xe8e2d0 };
+  parts[name] = m; root.add(m); return m;
+}
+
+// figure built procedurally so we get ~200 named meshes instead of ~10
+const cyl = (r1, r2, h) => new THREE.CylinderGeometry(r1, r2, h, 12);
+const sph = (r) => new THREE.SphereGeometry(r, 12, 10);
+const box = (w, h, d) => new THREE.BoxGeometry(w, h, d);
+
+// --- AXIAL SKELETON ---
+bone('skull', sph(0.30), 0, 1.55, 0);
+bone('jaw', box(0.34, 0.12, 0.30), 0, 1.30, 0.05);
+// cervical + thoracic + lumbar vertebrae (24 stacked discs)
+for (let i = 0; i < 24; i++) {
+  bone('vertebra ' + (i + 1), cyl(0.10, 0.10, 0.07), 0, 1.05 - i * 0.085, -0.05);
+}
+bone('sternum', box(0.12, 0.55, 0.06), 0, 0.55, 0.30);
+// 12 rib pairs
+for (let i = 0; i < 12; i++) {
+  const y = 0.85 - i * 0.075, w = 0.55 - i * 0.012;
+  bone('left rib ' + (i + 1), box(w, 0.04, 0.30), -w / 2, y, 0.15);
+  bone('right rib ' + (i + 1), box(w, 0.04, 0.30), w / 2, y, 0.15);
+}
+bone('left pelvis', box(0.34, 0.30, 0.30), -0.18, -0.95, 0);
+bone('right pelvis', box(0.34, 0.30, 0.30), 0.18, -0.95, 0);
+
+// --- APPENDICULAR SKELETON (mirror left/right) ---
+for (const s of [-1, 1]) {
+  const side = s < 0 ? 'left' : 'right';
+  bone(side + ' clavicle', cyl(0.04, 0.04, 0.45), s * 0.25, 0.95, 0.18);
+  bone(side + ' scapula', box(0.22, 0.30, 0.05), s * 0.40, 0.75, -0.18);
+  bone(side + ' humerus', cyl(0.06, 0.06, 0.95), s * 0.55, 0.45, 0);
+  bone(side + ' radius', cyl(0.04, 0.04, 0.80), s * 0.55, -0.35, 0.04);
+  bone(side + ' ulna', cyl(0.04, 0.04, 0.80), s * 0.60, -0.35, -0.04);
+  bone(side + ' patella', sph(0.08), s * 0.22, -1.55, 0.12);
+  bone(side + ' femur', cyl(0.08, 0.07, 1.25), s * 0.22, -1.55, 0);
+  bone(side + ' tibia', cyl(0.06, 0.05, 1.10), s * 0.20, -2.75, 0.02);
+  bone(side + ' fibula', cyl(0.03, 0.03, 1.10), s * 0.28, -2.75, -0.02);
+  bone(side + ' heel', box(0.14, 0.10, 0.18), s * 0.20, -3.40, -0.05);
+  // hand: 5 fingers x 3 phalanges
+  for (let f = 0; f < 5; f++) {
+    const fx = s * (0.42 + f * 0.07);
+    for (let p = 0; p < 3; p++) {
+      bone(side + ' finger ' + (f + 1) + ' phalanx ' + (p + 1),
+        cyl(0.018, 0.018, 0.10), fx, -0.85 - p * 0.11, 0.02);
+    }
+  }
+  // foot: 5 toes x 2 phalanges
+  for (let t = 0; t < 5; t++) {
+    const tx = s * (0.10 + t * 0.06);
+    for (let p = 0; p < 2; p++) {
+      bone(side + ' toe ' + (t + 1) + ' phalanx ' + (p + 1),
+        cyl(0.015, 0.015, 0.07), tx, -3.45, 0.10 + p * 0.08);
+    }
+  }
+}
+
+// --- MUSCLES (anchor names kept so chips/parser still work) ---
+muscle('pectoralis', box(0.42, 0.45, 0.12), -0.22, 0.55, 0.32);
+muscle('right pectoralis', box(0.42, 0.45, 0.12), 0.22, 0.55, 0.32);
+muscle('deltoid', sph(0.24), -0.62, 0.85, 0);
+muscle('right deltoid', sph(0.24), 0.62, 0.85, 0);
+muscle('biceps', cyl(0.11, 0.09, 0.65), -0.55, 0.5, 0.10);
+muscle('right biceps', cyl(0.11, 0.09, 0.65), 0.55, 0.5, 0.10);
+muscle('triceps', cyl(0.11, 0.09, 0.65), -0.58, 0.5, -0.12);
+muscle('right triceps', cyl(0.11, 0.09, 0.65), 0.58, 0.5, -0.12);
+muscle('left forearm', cyl(0.09, 0.06, 0.7), -0.57, -0.35, 0);
+muscle('right forearm', cyl(0.09, 0.06, 0.7), 0.57, -0.35, 0);
+muscle('left trapezius', box(0.30, 0.35, 0.10), -0.20, 0.85, -0.20);
+muscle('right trapezius', box(0.30, 0.35, 0.10), 0.20, 0.85, -0.20);
+muscle('left latissimus', box(0.28, 0.55, 0.12), -0.30, 0.20, -0.22);
+muscle('right latissimus', box(0.28, 0.55, 0.12), 0.30, 0.20, -0.22);
+// 6 abdominal segments + obliques
+for (let i = 0; i < 3; i++) {
+  muscle((i === 0 ? 'abdominals' : 'left abdominal ' + (i + 1)), box(0.22, 0.22, 0.10), -0.13, -0.05 - i * 0.26, 0.30);
+  muscle('right abdominal ' + (i + 1), box(0.22, 0.22, 0.10), 0.13, -0.05 - i * 0.26, 0.30);
+}
+muscle('left oblique', box(0.16, 0.55, 0.14), -0.34, -0.30, 0.22);
+muscle('right oblique', box(0.16, 0.55, 0.14), 0.34, -0.30, 0.22);
+muscle('left gluteus', sph(0.26), -0.22, -1.10, -0.18);
+muscle('right gluteus', sph(0.26), 0.22, -1.10, -0.18);
+muscle('quadriceps', cyl(0.15, 0.12, 1.05), -0.22, -1.55, 0.12);
+muscle('right quadriceps', cyl(0.15, 0.12, 1.05), 0.22, -1.55, 0.12);
+muscle('left hamstring', cyl(0.14, 0.11, 1.05), -0.22, -1.55, -0.14);
+muscle('right hamstring', cyl(0.14, 0.11, 1.05), 0.22, -1.55, -0.14);
+muscle('left calf', cyl(0.13, 0.07, 0.95), -0.20, -2.75, -0.10);
+muscle('right calf', cyl(0.13, 0.07, 0.95), 0.20, -2.75, -0.10);
+muscle('left sternocleidomastoid', cyl(0.05, 0.05, 0.30), -0.10, 1.18, 0.12);
+muscle('right sternocleidomastoid', cyl(0.05, 0.05, 0.30), 0.10, 1.18, 0.12);
+
+console.log('Total meshes:', Object.keys(parts).length);
+
+// ---- Interaction: drag rotate + scroll zoom (no OrbitControls dependency) ----
+let dragging = false, px = 0, py = 0;
+root.rotation.x = -0.1;
+renderer.domElement.addEventListener('mousedown', e => { dragging = true; px = e.clientX; py = e.clientY; });
+window.addEventListener('mouseup', () => dragging = false);
+window.addEventListener('mousemove', e => {
+  if (!dragging) return;
+  root.rotation.y += (e.clientX - px) * 0.01;
+  root.rotation.x += (e.clientY - py) * 0.01;
+  px = e.clientX; py = e.clientY;
+});
+renderer.domElement.addEventListener('wheel', e => {
+  e.preventDefault();
+  camera.position.z = Math.max(2.5, Math.min(12, camera.position.z + e.deltaY * 0.005));
+}, { passive: false });
+
+function resize() {
+  const w = sceneEl.clientWidth, h = sceneEl.clientHeight;
+  renderer.setSize(w, h); camera.aspect = w / h; camera.updateProjectionMatrix();
+}
+window.addEventListener('resize', resize); resize();
+
+(function loop() { requestAnimationFrame(loop); renderer.render(scene, camera); })();
+
+// ---- Commands (this is where an LLM tool-call would plug in) ----
+function setHighlight(name) {
+  Object.values(parts).forEach(m => {
+    const on = m.userData.name === name;
+    m.material.color.setHex(on ? 0xffd23f : m.userData.base);
+    m.material.opacity = 1;
+  });
+}
+function isolate(name) {
+  Object.values(parts).forEach(m => {
+    const on = m.userData.name === name;
+    m.material.color.setHex(on ? 0xffd23f : m.userData.base);
+    m.material.opacity = on ? 1 : 0.12;
+  });
+}
+function reset() {
+  Object.values(parts).forEach(m => { m.material.color.setHex(m.userData.base); m.material.opacity = 1; });
+}
+
+// crude intent parser standing in for the LLM
+function handle(text) {
+  const t = text.toLowerCase();
+  if (t.includes('reset') || t.includes('clear')) { reset(); return 'Reset — all structures visible.'; }
+  const names = Object.keys(parts);
+  const hit = names.find(n => t.includes(n)) || names.find(n => t.includes(n.replace('right ', '').replace('left ', '')));
+  if (!hit) return "I don't have that one in this demo. Try: biceps, deltoid, pectoralis, abdominals, quadriceps.";
+  if (t.includes('isolate') || t.includes('only') || t.includes('fade')) { isolate(hit); return `Isolating the ${hit}, fading everything else.`; }
+  setHighlight(hit);
+  return `Highlighting the ${hit}.`;
+}
+
+// ---- Chat UI ----
+const log = document.getElementById('log');
+function add(text, who) { const d = document.createElement('div'); d.className = 'msg ' + who; d.textContent = text; log.appendChild(d); log.scrollTop = log.scrollHeight; }
+function send(preset) {
+  const inp = document.getElementById('inp');
+  const text = preset || inp.value.trim();
+  if (!text) return;
+  inp.value = '';
+  add(text, 'user');
+  add(handle(text), 'bot');
+}
+add('Ask me to highlight or isolate a muscle. Try the chips below.', 'bot');
+</script>
+</body>
+</html>
