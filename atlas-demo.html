@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anatomy Patient Card</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, system-ui, sans-serif; background: #0f1115; color: #e6e8ec; overflow: hidden; }
+  #app { display: flex; height: 100vh; }
+
+  #card { width: 340px; background: #14171f; display: flex; flex-direction: column; border-right: 1px solid #262b38; }
+  #scene { flex: 1; position: relative; min-width: 0; }
+  #names { width: 240px; background: #161922; display: flex; flex-direction: column; border-left: 1px solid #262b38; }
+
+  h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: #8b93a7; padding: 13px 16px; border-bottom: 1px solid #262b38; }
+  #rows, #namelist { flex: 1; overflow-y: auto; }
+
+  .row { padding: 11px 16px; border-bottom: 1px solid #1d212c; cursor: pointer; }
+  .row:hover { background: #1b1f2a; }
+  .row.active { background: #1e2740; border-left: 3px solid #2f6df4; padding-left: 13px; }
+  .row .top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px; }
+  .row .date { font-size: 12px; color: #9fb0ff; }
+  .row .date.none { color: #5a6172; }
+  .row .src { font-size: 10px; text-transform: uppercase; letter-spacing: .05em; background: #232a3a; color: #aeb6c8; padding: 2px 7px; border-radius: 10px; }
+  .row .note { font-size: 13px; line-height: 1.35; color: #d3d8e0; }
+  .row .badges { margin-top: 6px; display: flex; gap: 5px; flex-wrap: wrap; }
+  .badge { font-size: 10px; padding: 2px 6px; border-radius: 4px; }
+  .b-verified { background: #14391f; color: #79d98e; }
+  .b-temp { background: #3a2f14; color: #e3c168; }
+  .b-perf { background: #1c2f3a; color: #6fc4e3; }
+
+  #namelist div { padding: 6px 16px; font-size: 12px; cursor: pointer; border-bottom: 1px solid #1d212c; color: #aeb6c8; }
+  #namelist div:hover { color: #ffd23f; }
+
+  #status { position: absolute; top: 12px; left: 12px; font-size: 12px; color: #9fb0ff; background: #161922cc; padding: 6px 10px; border-radius: 6px; }
+  #hint { position: absolute; bottom: 12px; left: 12px; font-size: 12px; color: #7a8090; }
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="card">
+    <h2>Patient Card</h2>
+    <div id="rows"></div>
+  </div>
+  <div id="scene">
+    <div id="status">Loading…</div>
+    <div id="hint">drag rotate · scroll zoom · click a row to highlight</div>
+  </div>
+  <div id="names">
+    <h2>Structures in model</h2>
+    <div id="namelist"></div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+<script>
+// ---- set these to your filenames ----
+const MODEL = './decimated_body.glb';            // your decimated GLB
+const CARD  = './patient_card.json';     // your observations file
+// --------------------------------------
+
+const sceneEl = document.getElementById('scene');
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(45, 1, 0.01, 1000);
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(window.devicePixelRatio);
+sceneEl.appendChild(renderer.domElement);
+
+scene.add(new THREE.AmbientLight(0xffffff, 0.75));
+const key = new THREE.DirectionalLight(0xffffff, 0.9); key.position.set(3, 5, 4); scene.add(key);
+const rim = new THREE.DirectionalLight(0x6688ff, 0.4); rim.position.set(-4, 2, -3); scene.add(rim);
+
+const root = new THREE.Group(); scene.add(root);
+const meshes = [];                 // {name, mesh, base}
+let target = new THREE.Vector3();
+
+// ---- load model ----
+new THREE.GLTFLoader().load(MODEL, (gltf) => {
+  root.add(gltf.scene);
+  gltf.scene.traverse((o) => {
+    if (o.isMesh) {
+      o.material = new THREE.MeshStandardMaterial({ color: 0xb0453f, roughness: 0.65 });
+      meshes.push({ name: o.name || '(unnamed)', mesh: o, base: 0xb0453f });
+    }
+  });
+  const box = new THREE.Box3().setFromObject(gltf.scene);
+  const size = box.getSize(new THREE.Vector3()).length();
+  box.getCenter(target);
+  camera.position.copy(target).add(new THREE.Vector3(0, 0, size * 1.1));
+  camera.near = size / 100; camera.far = size * 10; camera.updateProjectionMatrix();
+  camera.lookAt(target);
+
+  const nl = document.getElementById('namelist');
+  meshes.forEach(m => { const d = document.createElement('div'); d.textContent = m.name; d.onclick = () => highlightMeshes([m.name]); nl.appendChild(d); });
+  document.getElementById('status').textContent = `${meshes.length} structures loaded`;
+}, undefined, (e) => {
+  document.getElementById('status').textContent = 'Model failed to load (serve over http, check filename)';
+  console.error(e);
+});
+
+// ---- load patient card ----
+fetch(CARD).then(r => r.json()).then(rows => {
+  const el = document.getElementById('rows');
+  rows.forEach(obs => {
+    const div = document.createElement('div');
+    div.className = 'row';
+    const date = obs.date ? `<span class="date">${obs.date}</span>` : `<span class="date none">no date</span>`;
+    const badges = [
+      obs.verified_fact ? '<span class="badge b-verified">verified</span>' : '',
+      obs.temporary_condition ? '<span class="badge b-temp">temporary</span>' : '',
+      obs.performance ? '<span class="badge b-perf">performance</span>' : ''
+    ].join('');
+    div.innerHTML = `<div class="top">${date}<span class="src">${obs.source||''}</span></div>
+                     <div class="note">${obs.note||''}</div>
+                     <div class="badges">${badges}</div>`;
+    div.onclick = () => {
+      document.querySelectorAll('.row').forEach(r => r.classList.remove('active'));
+      div.classList.add('active');
+      highlightFromAffects(obs.affects || []);
+    };
+    el.appendChild(div);
+  });
+}).catch(e => { document.getElementById('rows').innerHTML = '<div class="row">patient_card.json not found</div>'; console.error(e); });
+
+// ---- highlighting ----
+function highlightMeshes(nameList) {
+  const want = nameList.map(n => n.toLowerCase());
+  meshes.forEach(m => {
+    const on = want.some(w => m.name.toLowerCase() === w);
+    paint(m, on);
+  });
+}
+// fuzzy: schema ids like "biceps_long_head" -> tokens -> match mesh names loosely
+function highlightFromAffects(affects) {
+  const tokens = affects.map(a => a.toLowerCase().split(/[_\s]+/).filter(t => t.length > 3));
+  let any = false;
+  meshes.forEach(m => {
+    const lname = m.name.toLowerCase();
+    const on = tokens.some(grp => grp.some(t => lname.includes(t)));
+    if (on) any = true;
+    paint(m, on);
+  });
+  document.getElementById('status').textContent = any ? 'Highlighting affected structures' : 'No model match for this entry (name mapping TODO)';
+}
+function paint(m, on) {
+  m.mesh.material.color.setHex(on ? 0xffd23f : m.base);
+  m.mesh.material.transparent = !on;
+  m.mesh.material.opacity = on ? 1 : 0.12;
+}
+
+// ---- controls ----
+let dragging = false, px = 0, py = 0;
+renderer.domElement.addEventListener('mousedown', e => { dragging = true; px = e.clientX; py = e.clientY; });
+window.addEventListener('mouseup', () => dragging = false);
+window.addEventListener('mousemove', e => { if (!dragging) return; root.rotation.y += (e.clientX - px) * 0.01; root.rotation.x += (e.clientY - py) * 0.01; px = e.clientX; py = e.clientY; });
+renderer.domElement.addEventListener('wheel', e => { e.preventDefault(); const d = camera.position.clone().sub(target); d.multiplyScalar(e.deltaY > 0 ? 1.1 : 0.9); camera.position.copy(target).add(d); }, { passive: false });
+function resize() { const w = sceneEl.clientWidth, h = sceneEl.clientHeight; renderer.setSize(w, h); camera.aspect = w / h; camera.updateProjectionMatrix(); }
+window.addEventListener('resize', resize); resize();
+(function loop(){ requestAnimationFrame(loop); renderer.render(scene, camera); })();
+</script>
+</body>
+</html>
