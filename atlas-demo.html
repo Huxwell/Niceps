@@ -134,11 +134,20 @@ function highlightMeshes(nameList) {
 }
 function highlightFromAffects(affects) {
   let any = false;
+  const matched = [];
   meshes.forEach(m => {
     const mn = m.name.toLowerCase();
     const on = affects.some(base => mn.includes(base.toLowerCase()));
-    if (on) any = true;
+    if (on) { any = true; matched.push(m); }
     paint(m, on);
+  });
+  const nl = document.getElementById('namelist');
+  nl.innerHTML = '';
+  matched.forEach(m => {
+    const d = document.createElement('div');
+    d.textContent = m.name;
+    d.onclick = () => highlightMeshes([m.name]);
+    nl.appendChild(d);
   });
   document.getElementById('status').textContent = any ? 'Highlighting affected structures' : 'No model match for this entry';
 }
