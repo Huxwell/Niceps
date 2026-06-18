@@ -132,17 +132,15 @@ function highlightMeshes(nameList) {
     paint(m, on);
   });
 }
-// fuzzy: schema ids like "biceps_long_head" -> tokens -> match mesh names loosely
 function highlightFromAffects(affects) {
-  const tokens = affects.map(a => a.toLowerCase().split(/[_\s]+/).filter(t => t.length > 3));
   let any = false;
   meshes.forEach(m => {
-    const lname = m.name.toLowerCase();
-    const on = tokens.some(grp => grp.some(t => lname.includes(t)));
+    const mn = m.name.toLowerCase();
+    const on = affects.some(base => mn.includes(base.toLowerCase()));
     if (on) any = true;
     paint(m, on);
   });
-  document.getElementById('status').textContent = any ? 'Highlighting affected structures' : 'No model match for this entry (name mapping TODO)';
+  document.getElementById('status').textContent = any ? 'Highlighting affected structures' : 'No model match for this entry';
 }
 function paint(m, on) {
   m.mesh.material.color.setHex(on ? 0xffd23f : m.base);
