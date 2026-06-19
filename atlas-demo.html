@@ -124,6 +124,28 @@ fetch(CARD).then(r => r.json()).then(rows => {
   });
 }).catch(e => { document.getElementById('rows').innerHTML = '<div class="row">patient_card.json not found</div>'; console.error(e); });
 
+// ---- tissue colour palettes ----
+const PALETTES = {
+  muscle:    [0xff9a8b, 0xf47983, 0xffb3a7, 0xe87d72, 0xffc3b5, 0xff8073, 0xf4a090, 0xffccc4],
+  bone:      [0xf0ead2, 0xe8dcc8, 0xfaf0e6, 0xede0c8, 0xf5f0e8, 0xe0d5c0, 0xfff8f0, 0xd8cdb8],
+  ligament:  [0x8fbc8f, 0x90ee90, 0x7bc47b, 0xa8d5a2, 0x6aaa6a, 0x98d498, 0x5c9e5c, 0xb4e0b4],
+  nerve:     [0x87b4ff, 0x6fa0ff, 0xa0c4ff, 0x5a8fff, 0xb8d0ff, 0x4a7fff, 0x74a8ff, 0xc4d8ff],
+  cartilage: [0xffd480, 0xffbc42, 0xffe0a0, 0xffaa33, 0xffecc0, 0xff9900, 0xffd060, 0xffca6a],
+  capsule:   [0xd4a8e0, 0xc490d0, 0xe0c0f0, 0xb478c0, 0xecd8f8, 0xa460b0, 0xcaa8e4, 0xf0e8ff],
+};
+function tissueType(name) {
+  const n = name.toLowerCase();
+  if (n.includes('ligament')) return 'ligament';
+  if (n.includes('nerve')) return 'nerve';
+  if (n.includes('capsule')) return 'capsule';
+  if (n.includes('disc') || n.includes('symphysis') || n.includes('cartilage')) return 'cartilage';
+  if (n.includes('muscle')) return 'muscle';
+  if (n.includes('phalanx') || n.includes('vertebra') || n.includes('intervertebral') ||
+      n === 'scapula' || n.includes('humerus') || n.includes('clavicle') ||
+      n.includes('metacarpal') || n.includes('metatarsal') || n.includes('_rib')) return 'bone';
+  return 'muscle';
+}
+
 // ---- highlighting ----
 function highlightMeshes(nameList) {
   const want = nameList.map(n => n.toLowerCase());
@@ -133,28 +155,48 @@ function highlightMeshes(nameList) {
   });
 }
 function highlightFromAffects(affects) {
+  const typeCounters = {};
+  const affectColors = affects.map(base => {
+    const type = tissueType(base);
+    const idx = typeCounters[type] = (typeCounters[type] || 0);
+    typeCounters[type]++;
+    const palette = PALETTES[type] || PALETTES.muscle;
+    return { base, color: palette[idx % palette.length] };
+  });
+
   let any = false;
   const matched = [];
   meshes.forEach(m => {
     const mn = m.name.toLowerCase();
-    const on = affects.some(base => mn.includes(base.toLowerCase()));
-    if (on) { any = true; matched.push(m); }
-    paint(m, on);
+    for (const { base, color } of affectColors) {
+      if (mn.includes(base.toLowerCase())) {
+        any = true;
+        matched.push({ m, color });
+        paint(m, true, color);
+        return;
+      }
+    }
+    paint(m, false, 0);
   });
+
   const nl = document.getElementById('namelist');
   nl.innerHTML = '';
-  matched.forEach(m => {
+  matched.forEach(({ m, color }) => {
+    const hex = '#' + color.toString(16).padStart(6, '0');
     const d = document.createElement('div');
+    d.style.borderLeft = `3px solid ${hex}`;
+    d.style.paddingLeft = '13px';
     d.textContent = m.name;
     d.onclick = () => highlightMeshes([m.name]);
     nl.appendChild(d);
   });
+
   document.getElementById('status').textContent = any ? 'Highlighting affected structures' : 'No model match for this entry';
 }
-function paint(m, on) {
-  m.mesh.material.color.setHex(on ? 0xffd23f : m.base);
+function paint(m, on, color = 0xffd23f) {
+  m.mesh.material.color.setHex(on ? color : m.base);
   m.mesh.material.transparent = !on;
-  m.mesh.material.opacity = on ? 1 : 0.12;
+  m.mesh.material.opacity = on ? 1 : 0.18;
 }
 
 // ---- controls ----
