@@ -1,0 +1,2318 @@
+{
+ "10th_rib": {
+  "pl": "żebro dziesiąte",
+  "en": "10th rib"
+ },
+ "11-Upper_medial_incisor": {
+  "pl": "siekacz przyśrodkowy górny (11)",
+  "en": "11 Upper medial incisor"
+ },
+ "11th_rib": {
+  "pl": "żebro jedenaste",
+  "en": "11th rib"
+ },
+ "12-Upper_lateral_incisor": {
+  "pl": "siekacz boczny górny (12)",
+  "en": "12 Upper lateral incisor"
+ },
+ "12th_rib": {
+  "pl": "żebro dwunaste",
+  "en": "12th rib"
+ },
+ "13-Upper_canine": {
+  "pl": "kieł górny (13)",
+  "en": "13 Upper canine"
+ },
+ "14-Upper_first_premolar": {
+  "pl": "pierwszy przedtrzonowiec górny (14)",
+  "en": "14 Upper first premolar"
+ },
+ "15-Upper_second_premolar": {
+  "pl": "drugi przedtrzonowiec górny (15)",
+  "en": "15 Upper second premolar"
+ },
+ "16-Upper_first_molar": {
+  "pl": "pierwszy trzonowiec górny (16)",
+  "en": "16 Upper first molar"
+ },
+ "17-Upper_second_molar": {
+  "pl": "drugi trzonowiec górny (17)",
+  "en": "17 Upper second molar"
+ },
+ "1st_metacarpal_bone": {
+  "pl": "kość śródręcza pierwsza",
+  "en": "1st metacarpal bone"
+ },
+ "1st_metatarsal_bone": {
+  "pl": "kość śródstopia pierwsza",
+  "en": "1st metatarsal bone"
+ },
+ "1st_rib": {
+  "pl": "żebro pierwsze",
+  "en": "1st rib"
+ },
+ "2d_metacarpal_bone": {
+  "pl": "kość śródręcza druga",
+  "en": "2d metacarpal bone"
+ },
+ "2d_metatarsal_bone": {
+  "pl": "kość śródstopia druga",
+  "en": "2d metatarsal bone"
+ },
+ "2d_rib": {
+  "pl": "żebro drugie",
+  "en": "2d rib"
+ },
+ "31-Lower_medial_incisor": {
+  "pl": "siekacz przyśrodkowy dolny (31)",
+  "en": "31 Lower medial incisor"
+ },
+ "32-Lower_lateral_incisor": {
+  "pl": "siekacz boczny dolny (32)",
+  "en": "32 Lower lateral incisor"
+ },
+ "33-Lower_canine": {
+  "pl": "kieł dolny (33)",
+  "en": "33 Lower canine"
+ },
+ "34-Lower_first_premolar": {
+  "pl": "pierwszy przedtrzonowiec dolny (34)",
+  "en": "34 Lower first premolar"
+ },
+ "35-Lower_second_premolar": {
+  "pl": "drugi przedtrzonowiec dolny (35)",
+  "en": "35 Lower second premolar"
+ },
+ "36-Lower_first_molar": {
+  "pl": "pierwszy trzonowiec dolny (36)",
+  "en": "36 Lower first molar"
+ },
+ "37-Lower_second_molar": {
+  "pl": "drugi trzonowiec dolny (37)",
+  "en": "37 Lower second molar"
+ },
+ "3d_metacarpal_bone": {
+  "pl": "kość śródręcza trzecia",
+  "en": "3d metacarpal bone"
+ },
+ "3rd_metatarsal_bone": {
+  "pl": "kość śródstopia trzecia",
+  "en": "3rd metatarsal bone"
+ },
+ "3rd_rib": {
+  "pl": "żebro trzecie",
+  "en": "3rd rib"
+ },
+ "4th_metacarpal_bone": {
+  "pl": "kość śródręcza czwarta",
+  "en": "4th metacarpal bone"
+ },
+ "4th_metatarsal_bone": {
+  "pl": "kość śródstopia czwarta",
+  "en": "4th metatarsal bone"
+ },
+ "4th_rib": {
+  "pl": "żebro czwarte",
+  "en": "4th rib"
+ },
+ "5th_metacarpal_bone": {
+  "pl": "kość śródręcza piąta",
+  "en": "5th metacarpal bone"
+ },
+ "5th_metatarsal_bone": {
+  "pl": "kość śródstopia piąta",
+  "en": "5th metatarsal bone"
+ },
+ "5th_rib": {
+  "pl": "żebro piąte",
+  "en": "5th rib"
+ },
+ "6th_rib": {
+  "pl": "żebro szóste",
+  "en": "6th rib"
+ },
+ "7th_rib": {
+  "pl": "żebro siódme",
+  "en": "7th rib"
+ },
+ "8th_rib": {
+  "pl": "żebro ósme",
+  "en": "8th rib"
+ },
+ "9th_rib": {
+  "pl": "żebro dziewiąte",
+  "en": "9th rib"
+ },
+ "Abdominal_part_of_pectoralis_major_muscle": {
+  "pl": "m. piersiowy większy — część brzuszna",
+  "en": "Abdominal part of pectoralis major muscle"
+ },
+ "Abductor_digiti_minimi": {
+  "pl": "m. odwodziciel palca małego",
+  "en": "Abductor digiti minimi"
+ },
+ "Abductor_digiti_minimi_of_foot": {
+  "pl": "m. odwodziciel palca małego stopy",
+  "en": "Abductor digiti minimi of foot"
+ },
+ "Abductor_hallucis": {
+  "pl": "m. odwodziciel palucha",
+  "en": "Abductor hallucis"
+ },
+ "Abductor_pollicis_brevis": {
+  "pl": "m. odwodziciel krótki kciuka",
+  "en": "Abductor pollicis brevis"
+ },
+ "Acetabular_labrum": {
+  "pl": "obrąbek panewkowy",
+  "en": "Acetabular labrum"
+ },
+ "Acromial_part_of_deltoid_muscle": {
+  "pl": "m. naramienny — część barkowa",
+  "en": "Acromial part of deltoid muscle"
+ },
+ "Acromioclavicular_joint's_capsule": {
+  "pl": "torebka stawu barkowo-obojczykowego",
+  "en": "Acromioclavicular joint's capsule"
+ },
+ "Acromioclavicular_ligament": {
+  "pl": "więzadło barkowo-obojczykowe",
+  "en": "Acromioclavicular ligament"
+ },
+ "Adductor_brevis": {
+  "pl": "m. przywodziciel krótki",
+  "en": "Adductor brevis"
+ },
+ "Adductor_longus": {
+  "pl": "m. przywodziciel długi",
+  "en": "Adductor longus"
+ },
+ "Adductor_magnus": {
+  "pl": "m. przywodziciel wielki",
+  "en": "Adductor magnus"
+ },
+ "Adductor_minimus": {
+  "pl": "m. przywodziciel najmniejszy",
+  "en": "Adductor minimus"
+ },
+ "Adductor_pollicis_longus": {
+  "pl": "m. przywodziciel długi kciuka",
+  "en": "Adductor pollicis longus"
+ },
+ "Anconeus_muscle": {
+  "pl": "m. łokciowy",
+  "en": "Anconeus muscle"
+ },
+ "Annular_ligament_of_radius": {
+  "pl": "więzadło pierścieniowate kości promieniowej",
+  "en": "Annular ligament of radius"
+ },
+ "Anterior_belly_of_digastric_muscle": {
+  "pl": "brzusiec przedni m. dwubrzuścowego",
+  "en": "Anterior belly of digastric muscle"
+ },
+ "Anterior_cruciate_ligament": {
+  "pl": "więzadło krzyżowe przednie",
+  "en": "Anterior cruciate ligament"
+ },
+ "Anterior_ligament_of_fibular_head": {
+  "pl": "więzadło przednie głowy strzałki",
+  "en": "Anterior ligament of fibular head"
+ },
+ "Anterior_longitudinal_ligament": {
+  "pl": "więzadło podłużne przednie",
+  "en": "Anterior longitudinal ligament"
+ },
+ "Anterior_meniscotibial_ligament_(Lateral_meniscus)": {
+  "pl": "więzadło łąkotkowo-piszczelowe przednie (łąkotka boczna)",
+  "en": "Anterior meniscotibial ligament (Lateral meniscus)"
+ },
+ "Anterior_meniscotibial_ligament_(Medial_meniscus)": {
+  "pl": "więzadło łąkotkowo-piszczelowe przednie (łąkotka przyśrodkowa)",
+  "en": "Anterior meniscotibial ligament (Medial meniscus)"
+ },
+ "Anterior_sacro-iliac_ligament": {
+  "pl": "więzadło krzyżowo-biodrowe przednie",
+  "en": "Anterior sacro-iliac ligament"
+ },
+ "Anterior_sternoclavicular_ligament": {
+  "pl": "więzadło mostkowo-obojczykowe przednie",
+  "en": "Anterior sternoclavicular ligament"
+ },
+ "Anterior_talocalcaneal_ligament": {
+  "pl": "więzadło skokowo-piętowe przednie",
+  "en": "Anterior talocalcaneal ligament"
+ },
+ "Anterior_talofibular_ligament": {
+  "pl": "więzadło skokowo-strzałkowe przednie",
+  "en": "Anterior talofibular ligament"
+ },
+ "Anterior_tibiofibular_ligament": {
+  "pl": "więzadło piszczelowo-strzałkowe przednie",
+  "en": "Anterior tibiofibular ligament"
+ },
+ "Arcuate_ligament": {
+  "pl": "więzadło łukowate",
+  "en": "Arcuate ligament"
+ },
+ "Articular_capsule_of_elbow": {
+  "pl": "torebka stawowa stawu łokciowego",
+  "en": "Articular capsule of elbow"
+ },
+ "Articular_capsule_of_glenohumeral_joint": {
+  "pl": "torebka stawowa stawu ramiennego",
+  "en": "Articular capsule of glenohumeral joint"
+ },
+ "Articular_capsule_of_hip_joint": {
+  "pl": "torebka stawowa stawu biodrowego",
+  "en": "Articular capsule of hip joint"
+ },
+ "Articular_capsule_of_interphalangeal_joint_of_great_toe": {
+  "pl": "torebka stawowa stawu międzypaliczkowego palucha",
+  "en": "Articular capsule of interphalangeal joint of great toe"
+ },
+ "Articular_capsule_of_knee_joint": {
+  "pl": "torebka stawowa stawu kolanowego",
+  "en": "Articular capsule of knee joint"
+ },
+ "Articular_capsule_of_sternoclavicular_joint": {
+  "pl": "torebka stawu mostkowo-obojczykowego",
+  "en": "Articular capsule of sternoclavicular joint"
+ },
+ "Articular_capsule_of_superior_tibiofibular_head": {
+  "pl": "torebka stawu piszczelowo-strzałkowego (bliższego)",
+  "en": "Articular capsule of superior tibiofibular head"
+ },
+ "Articular_capsule_of_wrist": {
+  "pl": "torebka stawowa nadgarstka",
+  "en": "Articular capsule of wrist"
+ },
+ "Articular_capsules_of_distal_interphalangeal_joints": {
+  "pl": "torebki stawów międzypaliczkowych dalszych",
+  "en": "Articular capsules of distal interphalangeal joints"
+ },
+ "Articular_capsules_of_distal_interphalangeal_joints_of_foot": {
+  "pl": "torebki stawów międzypaliczkowych dalszych stopy",
+  "en": "Articular capsules of distal interphalangeal joints of foot"
+ },
+ "Articular_capsules_of_metacarpophalangeal_joints": {
+  "pl": "torebki stawów śródręczno-paliczkowych",
+  "en": "Articular capsules of metacarpophalangeal joints"
+ },
+ "Articular_capsules_of_metatarsophalangeal_joints": {
+  "pl": "torebki stawów śródstopno-paliczkowych",
+  "en": "Articular capsules of metatarsophalangeal joints"
+ },
+ "Articular_capsules_of_proximal_interphalangeal_joints": {
+  "pl": "torebki stawów międzypaliczkowych bliższych",
+  "en": "Articular capsules of proximal interphalangeal joints"
+ },
+ "Articular_capsules_of_proximal_interphalangeal_joints_of_fo": {
+  "pl": "Articular capsules of proximal interphalangeal joints of fo",
+  "en": "Articular capsules of proximal interphalangeal joints of fo"
+ },
+ "Articular_capsules_of_proximal_interphalangeal_joints_of_foot": {
+  "pl": "torebki stawów międzypaliczkowych bliższych stopy",
+  "en": "Articular capsules of proximal interphalangeal joints of foot"
+ },
+ "Articular_disc_of_acromioclavicular_joint": {
+  "pl": "krążek stawowy stawu barkowo-obojczykowego",
+  "en": "Articular disc of acromioclavicular joint"
+ },
+ "Articular_disc_of_distal_radio-ulnar_joint": {
+  "pl": "krążek stawowy stawu promieniowo-łokciowego dalszego",
+  "en": "Articular disc of distal radio-ulnar joint"
+ },
+ "Articular_disc_of_sternoclavicular_joint": {
+  "pl": "krążek stawowy stawu mostkowo-obojczykowego",
+  "en": "Articular disc of sternoclavicular joint"
+ },
+ "Ascending_part_of_trapezius_muscle": {
+  "pl": "m. czworoboczny — część wstępująca (dolna)",
+  "en": "Ascending part of trapezius muscle"
+ },
+ "Atlas": {
+  "pl": "kręg szczytowy (C1)",
+  "en": "Atlas"
+ },
+ "Axis": {
+  "pl": "kręg obrotowy (C2)",
+  "en": "Axis"
+ },
+ "Brachialis_muscle": {
+  "pl": "m. ramienny",
+  "en": "Brachialis muscle"
+ },
+ "Brachioradialis_muscle": {
+  "pl": "m. ramienno-promieniowy",
+  "en": "Brachioradialis muscle"
+ },
+ "Bucinator": {
+  "pl": "m. policzkowy",
+  "en": "Bucinator"
+ },
+ "C3": {
+  "pl": "krąg szyjny C3",
+  "en": "C3"
+ },
+ "C5": {
+  "pl": "krąg szyjny C5",
+  "en": "C5"
+ },
+ "C6": {
+  "pl": "krąg szyjny C6",
+  "en": "C6"
+ },
+ "C7": {
+  "pl": "krąg szyjny C7",
+  "en": "C7"
+ },
+ "Calcaneal_tendon": {
+  "pl": "ścięgno piętowe (Achillesa)",
+  "en": "Calcaneal tendon"
+ },
+ "Calcaneocuboid_ligament": {
+  "pl": "więzadło piętowo-sześcienne",
+  "en": "Calcaneocuboid ligament"
+ },
+ "Calcaneofibular_ligament": {
+  "pl": "więzadło piętowo-strzałkowe",
+  "en": "Calcaneofibular ligament"
+ },
+ "Calcaneonavicular_ligament": {
+  "pl": "więzadło piętowo-łódkowe",
+  "en": "Calcaneonavicular ligament"
+ },
+ "Calcaneus": {
+  "pl": "kość piętowa",
+  "en": "Calcaneus"
+ },
+ "Capitate_bone": {
+  "pl": "kość główkowata",
+  "en": "Capitate bone"
+ },
+ "Capitohamate_interosseus_ligament": {
+  "pl": "więzadło międzykostne główkowato-haczykowate",
+  "en": "Capitohamate interosseus ligament"
+ },
+ "Cervical_vertebra": {
+  "pl": "Cervical vertebra",
+  "en": "Cervical vertebra"
+ },
+ "Clavicle": {
+  "pl": "obojczyk",
+  "en": "Clavicle"
+ },
+ "Clavicular_head_of_pectoralis_major_muscle": {
+  "pl": "m. piersiowy większy — głowa obojczykowa",
+  "en": "Clavicular head of pectoralis major muscle"
+ },
+ "Clavicular_part_of_deltoid_muscle": {
+  "pl": "m. naramienny — część obojczykowa",
+  "en": "Clavicular part of deltoid muscle"
+ },
+ "Coccygeus_muscle": {
+  "pl": "m. guziczny",
+  "en": "Coccygeus muscle"
+ },
+ "Coccyx": {
+  "pl": "kość guziczna",
+  "en": "Coccyx"
+ },
+ "Collateral_interphalangeal_ligaments_of_foot": {
+  "pl": "więzadła poboczne stawów międzypaliczkowych stopy",
+  "en": "Collateral interphalangeal ligaments of foot"
+ },
+ "Collateral_interphalangeal_ligaments_of_hand": {
+  "pl": "więzadła poboczne stawów międzypaliczkowych ręki",
+  "en": "Collateral interphalangeal ligaments of hand"
+ },
+ "Collateral_metacarpophalangeal_ligaments": {
+  "pl": "więzadła poboczne stawów śródręczno-paliczkowych",
+  "en": "Collateral metacarpophalangeal ligaments"
+ },
+ "Collateral_metatarsophalangeal_ligaments": {
+  "pl": "więzadła poboczne stawów śródstopno-paliczkowych",
+  "en": "Collateral metatarsophalangeal ligaments"
+ },
+ "Common_tendinous_ring": {
+  "pl": "wspólny pierścień ścięgnisty",
+  "en": "Common tendinous ring"
+ },
+ "Conoid_ligament": {
+  "pl": "więzadło stożkowate",
+  "en": "Conoid ligament"
+ },
+ "Coraco-acromial_ligament": {
+  "pl": "więzadło kruczo-barkowe",
+  "en": "Coraco-acromial ligament"
+ },
+ "Coracobrachialis_muscle": {
+  "pl": "m. kruczo-ramienny",
+  "en": "Coracobrachialis muscle"
+ },
+ "Coracohumeral_ligament": {
+  "pl": "więzadło kruczo-ramienne",
+  "en": "Coracohumeral ligament"
+ },
+ "Cornea-l": {
+  "pl": "Cornea-l",
+  "en": "Cornea-l"
+ },
+ "Cornea-r": {
+  "pl": "Cornea-r",
+  "en": "Cornea-r"
+ },
+ "Corrugator_supercilii": {
+  "pl": "m. marszczący brwi",
+  "en": "Corrugator supercilii"
+ },
+ "Costal_cartilages": {
+  "pl": "chrząstki żebrowe",
+  "en": "Costal cartilages"
+ },
+ "Costoclavicular_ligament": {
+  "pl": "więzadło żebrowo-obojczykowe",
+  "en": "Costoclavicular ligament"
+ },
+ "Costotransverse_ligament": {
+  "pl": "więzadło żebrowo-poprzeczne",
+  "en": "Costotransverse ligament"
+ },
+ "Cuboid_bone": {
+  "pl": "kość sześcienna",
+  "en": "Cuboid bone"
+ },
+ "Cuneocuboid_interosseus_ligament": {
+  "pl": "więzadło międzykostne klinowo-sześcienne",
+  "en": "Cuneocuboid interosseus ligament"
+ },
+ "Cuneometatarsal_interosseus_ligaments": {
+  "pl": "więzadła międzykostne klinowo-śródstopne",
+  "en": "Cuneometatarsal interosseus ligaments"
+ },
+ "Deep_head_of_flexor_pollicis_brevis": {
+  "pl": "głowa głęboka m. zginacza krótkiego kciuka",
+  "en": "Deep head of flexor pollicis brevis"
+ },
+ "Deep_head_of_prontaor_teres_muscle": {
+  "pl": "głowa głęboka m. nawrotnego obłego",
+  "en": "Deep head of prontaor teres muscle"
+ },
+ "Deep_part_of_masseter": {
+  "pl": "część głęboka m. żwacza",
+  "en": "Deep part of masseter"
+ },
+ "Deep_part_of_tibial_collateral_ligament": {
+  "pl": "część głęboka więzadła pobocznego piszczelowego",
+  "en": "Deep part of tibial collateral ligament"
+ },
+ "Deep_transverse_metacarpal_ligament": {
+  "pl": "więzadło poprzeczne głębokie śródręcza",
+  "en": "Deep transverse metacarpal ligament"
+ },
+ "Deep_transverse_metatarsal_ligament": {
+  "pl": "więzadło poprzeczne głębokie śródstopia",
+  "en": "Deep transverse metatarsal ligament"
+ },
+ "Depressor_anguli_oris": {
+  "pl": "m. obniżacz kąta ust",
+  "en": "Depressor anguli oris"
+ },
+ "Depressor_labii_superioris": {
+  "pl": "m. obniżacz wargi (dolnej)",
+  "en": "Depressor labii superioris"
+ },
+ "Depressor_septi_nasi": {
+  "pl": "m. obniżacz przegrody nosa",
+  "en": "Depressor septi nasi"
+ },
+ "Descending_part_of_iliofemoral_ligament": {
+  "pl": "część zstępująca więzadła biodrowo-udowego",
+  "en": "Descending part of iliofemoral ligament"
+ },
+ "Descending_part_of_trapezius_muscle": {
+  "pl": "m. czworoboczny — część zstępująca (górna)",
+  "en": "Descending part of trapezius muscle"
+ },
+ "Diaphragm": {
+  "pl": "przepona",
+  "en": "Diaphragm"
+ },
+ "Distal_phalanx_of_1st_finger": {
+  "pl": "paliczek dalszy palca I ręki",
+  "en": "Distal phalanx of 1st finger"
+ },
+ "Distal_phalanx_of_1st_finger_of_foot": {
+  "pl": "paliczek dalszy palca I stopy",
+  "en": "Distal phalanx of 1st finger of foot"
+ },
+ "Distal_phalanx_of_2d_finger": {
+  "pl": "paliczek dalszy palca II ręki",
+  "en": "Distal phalanx of 2d finger"
+ },
+ "Distal_phalanx_of_2d_finger_of_foot": {
+  "pl": "paliczek dalszy palca II stopy",
+  "en": "Distal phalanx of 2d finger of foot"
+ },
+ "Distal_phalanx_of_3d_finger": {
+  "pl": "paliczek dalszy palca III ręki",
+  "en": "Distal phalanx of 3d finger"
+ },
+ "Distal_phalanx_of_3rd_finger_of_foot": {
+  "pl": "paliczek dalszy palca III stopy",
+  "en": "Distal phalanx of 3rd finger of foot"
+ },
+ "Distal_phalanx_of_4th_finger": {
+  "pl": "paliczek dalszy palca IV ręki",
+  "en": "Distal phalanx of 4th finger"
+ },
+ "Distal_phalanx_of_4th_finger_of_foot": {
+  "pl": "paliczek dalszy palca IV stopy",
+  "en": "Distal phalanx of 4th finger of foot"
+ },
+ "Distal_phalanx_of_5th_finger": {
+  "pl": "paliczek dalszy palca V ręki",
+  "en": "Distal phalanx of 5th finger"
+ },
+ "Distal_phalanx_of_5th_finger_of_foot": {
+  "pl": "paliczek dalszy palca V stopy",
+  "en": "Distal phalanx of 5th finger of foot"
+ },
+ "Dorsal_calcaneocuboid_ligament": {
+  "pl": "więzadło piętowo-sześcienne grzbietowe",
+  "en": "Dorsal calcaneocuboid ligament"
+ },
+ "Dorsal_carpometacarpal_ligaments": {
+  "pl": "więzadła nadgarstkowo-śródręczne grzbietowe",
+  "en": "Dorsal carpometacarpal ligaments"
+ },
+ "Dorsal_cuboidonavicular_ligament": {
+  "pl": "więzadło sześcienno-łódkowe grzbietowe",
+  "en": "Dorsal cuboidonavicular ligament"
+ },
+ "Dorsal_cuneocuboid_ligament": {
+  "pl": "więzadło klinowo-sześcienne grzbietowe",
+  "en": "Dorsal cuneocuboid ligament"
+ },
+ "Dorsal_cuneonavicular_ligaments": {
+  "pl": "więzadła klinowo-łódkowe grzbietowe",
+  "en": "Dorsal cuneonavicular ligaments"
+ },
+ "Dorsal_intercarpal_ligaments": {
+  "pl": "więzadła międzynadgarstkowe grzbietowe",
+  "en": "Dorsal intercarpal ligaments"
+ },
+ "Dorsal_intercuneiform_ligaments": {
+  "pl": "więzadła międzyklinowe grzbietowe",
+  "en": "Dorsal intercuneiform ligaments"
+ },
+ "Dorsal_interossei_muscles_of_foot": {
+  "pl": "mm. międzykostne grzbietowe stopy",
+  "en": "Dorsal interossei muscles of foot"
+ },
+ "dorsal_interossei_muscles_of_hand": {
+  "pl": "mm. międzykostne grzbietowe ręki",
+  "en": "Dorsal interossei muscles of hand"
+ },
+ "Dorsal_metacarpal_ligaments": {
+  "pl": "więzadła śródręczne grzbietowe",
+  "en": "Dorsal metacarpal ligaments"
+ },
+ "Dorsal_metatarsal_ligaments": {
+  "pl": "więzadła śródstopne grzbietowe",
+  "en": "Dorsal metatarsal ligaments"
+ },
+ "Dorsal_parts_of_lateral_intertransversarii_lumborum_muscles": {
+  "pl": "części grzbietowe mm. międzypoprzecznych bocznych lędźwi",
+  "en": "Dorsal parts of lateral intertransversarii lumborum muscles"
+ },
+ "Dorsal_radio-ulnar_ligament": {
+  "pl": "więzadło promieniowo-łokciowe grzbietowe",
+  "en": "Dorsal radio-ulnar ligament"
+ },
+ "Dorsal_radiocarpal_ligament": {
+  "pl": "więzadło promieniowo-nadgarstkowe grzbietowe",
+  "en": "Dorsal radiocarpal ligament"
+ },
+ "Dorsal_scaphotriquetral_ligament": {
+  "pl": "więzadło łódeczkowo-trójgraniaste grzbietowe",
+  "en": "Dorsal scaphotriquetral ligament"
+ },
+ "Dorsal_tarsometatarsal_ligaments": {
+  "pl": "więzadła stępowo-śródstopne grzbietowe",
+  "en": "Dorsal tarsometatarsal ligaments"
+ },
+ "Dorsal_ulnocarpal_ligament": {
+  "pl": "więzadło łokciowo-nadgarstkowe grzbietowe",
+  "en": "Dorsal ulnocarpal ligament"
+ },
+ "Epicranial_aponeurosis": {
+  "pl": "czepiec ścięgnisty",
+  "en": "Epicranial aponeurosis"
+ },
+ "Ethmoid_bone": {
+  "pl": "kość sitowa",
+  "en": "Ethmoid bone"
+ },
+ "Extensor_carpi_radialis_brevis": {
+  "pl": "m. prostownik promieniowy krótki nadgarstka",
+  "en": "Extensor carpi radialis brevis"
+ },
+ "Extensor_carpi_radialis_longus": {
+  "pl": "m. prostownik promieniowy długi nadgarstka",
+  "en": "Extensor carpi radialis longus"
+ },
+ "Extensor_digiti_minimi": {
+  "pl": "m. prostownik palca małego",
+  "en": "Extensor digiti minimi"
+ },
+ "Extensor_digitorum": {
+  "pl": "m. prostownik palców",
+  "en": "Extensor digitorum"
+ },
+ "Extensor_digitorum_brevis": {
+  "pl": "m. prostownik krótki palców",
+  "en": "Extensor digitorum brevis"
+ },
+ "Extensor_digitorum_longus": {
+  "pl": "m. prostownik długi palców",
+  "en": "Extensor digitorum longus"
+ },
+ "Extensor_hallucis_brevis": {
+  "pl": "m. prostownik krótki palucha",
+  "en": "Extensor hallucis brevis"
+ },
+ "Extensor_hallucis_longus": {
+  "pl": "m. prostownik długi palucha",
+  "en": "Extensor hallucis longus"
+ },
+ "Extensor_indicis": {
+  "pl": "m. prostownik wskaziciela",
+  "en": "Extensor indicis"
+ },
+ "Extensor_pollicis_brevis": {
+  "pl": "m. prostownik krótki kciuka",
+  "en": "Extensor pollicis brevis"
+ },
+ "Extensor_pollicis_longus": {
+  "pl": "m. prostownik długi kciuka",
+  "en": "Extensor pollicis longus"
+ },
+ "External_abdominal_oblique": {
+  "pl": "m. skośny zewnętrzny brzucha",
+  "en": "External abdominal oblique"
+ },
+ "External_anal_sphincter": {
+  "pl": "m. zwieracz zewnętrzny odbytu",
+  "en": "External anal sphincter"
+ },
+ "External_intercostal_membrane": {
+  "pl": "błona międzyżebrowa zewnętrzna",
+  "en": "External intercostal membrane"
+ },
+ "External_intercostal_muscles": {
+  "pl": "mm. międzyżebrowe zewnętrzne",
+  "en": "External intercostal muscles"
+ },
+ "Fascia_lata": {
+  "pl": "powięź szeroka",
+  "en": "Fascia lata"
+ },
+ "Femur": {
+  "pl": "kość udowa",
+  "en": "Femur"
+ },
+ "Fibrous_loop_for_intermediate_digastric_tendon": {
+  "pl": "pętla ścięgnista m. dwubrzuścowego",
+  "en": "Fibrous loop for intermediate digastric tendon"
+ },
+ "Fibula": {
+  "pl": "kość strzałkowa",
+  "en": "Fibula"
+ },
+ "Fibular_collateral_ligament": {
+  "pl": "więzadło poboczne strzałkowe",
+  "en": "Fibular collateral ligament"
+ },
+ "Fibularis_brevis": {
+  "pl": "m. strzałkowy krótki",
+  "en": "Fibularis brevis"
+ },
+ "Fibularis_longus": {
+  "pl": "m. strzałkowy długi",
+  "en": "Fibularis longus"
+ },
+ "Fibularis_tertius": {
+  "pl": "m. strzałkowy trzeci",
+  "en": "Fibularis tertius"
+ },
+ "Flexor_carpi_radialis": {
+  "pl": "m. zginacz promieniowy nadgarstka",
+  "en": "Flexor carpi radialis"
+ },
+ "Flexor_digiti_minimi_of_foot": {
+  "pl": "m. zginacz palca małego stopy",
+  "en": "Flexor digiti minimi of foot"
+ },
+ "Flexor_digiti_minimi_of_hand": {
+  "pl": "m. zginacz palca małego ręki",
+  "en": "Flexor digiti minimi of hand"
+ },
+ "Flexor_digitorum_brevis": {
+  "pl": "m. zginacz krótki palców",
+  "en": "Flexor digitorum brevis"
+ },
+ "Flexor_digitorum_longus": {
+  "pl": "m. zginacz długi palców",
+  "en": "Flexor digitorum longus"
+ },
+ "Flexor_digitorum_profundus": {
+  "pl": "m. zginacz głęboki palców",
+  "en": "Flexor digitorum profundus"
+ },
+ "Flexor_digitorum_superficialis": {
+  "pl": "m. zginacz powierzchowny palców",
+  "en": "Flexor digitorum superficialis"
+ },
+ "Flexor_hallucis_longus": {
+  "pl": "m. zginacz długi palucha",
+  "en": "Flexor hallucis longus"
+ },
+ "Flexor_pollicis_longus": {
+  "pl": "m. zginacz długi kciuka",
+  "en": "Flexor pollicis longus"
+ },
+ "Frenula_capsulae": {
+  "pl": "wędzidełka torebki stawowej",
+  "en": "Frenula capsulae"
+ },
+ "Frontal_bone": {
+  "pl": "kość czołowa",
+  "en": "Frontal bone"
+ },
+ "Frontalis": {
+  "pl": "m. czołowy",
+  "en": "Frontalis"
+ },
+ "Geniohyoid_muscle": {
+  "pl": "m. bródkowo-gnykowy",
+  "en": "Geniohyoid muscle"
+ },
+ "Glenoid_labrum": {
+  "pl": "obrąbek stawowy (panewki)",
+  "en": "Glenoid labrum"
+ },
+ "Gluteus_maximus_muscle": {
+  "pl": "m. pośladkowy wielki",
+  "en": "Gluteus maximus muscle"
+ },
+ "Gluteus_medius_muscle": {
+  "pl": "m. pośladkowy średni",
+  "en": "Gluteus medius muscle"
+ },
+ "Gluteus_minimus_muscle": {
+  "pl": "m. pośladkowy mały",
+  "en": "Gluteus minimus muscle"
+ },
+ "Gracilis_muscle": {
+  "pl": "m. smukły",
+  "en": "Gracilis muscle"
+ },
+ "Hamate_bone": {
+  "pl": "kość haczykowata",
+  "en": "Hamate bone"
+ },
+ "Hip_bone": {
+  "pl": "kość miedniczna",
+  "en": "Hip bone"
+ },
+ "Humeral_head_of_extensor_carpi_ulnaris": {
+  "pl": "głowa ramienna m. prostownika łokciowego nadgarstka",
+  "en": "Humeral head of extensor carpi ulnaris"
+ },
+ "Humeral_head_of_flexor_carpi_ulnaris": {
+  "pl": "głowa ramienna m. zginacza łokciowego nadgarstka",
+  "en": "Humeral head of flexor carpi ulnaris"
+ },
+ "Humerus": {
+  "pl": "kość ramienna",
+  "en": "Humerus"
+ },
+ "Hyoid_bone": {
+  "pl": "kość gnykowa",
+  "en": "Hyoid bone"
+ },
+ "Iliacus_muscle": {
+  "pl": "m. biodrowy",
+  "en": "Iliacus muscle"
+ },
+ "Iliococcygeus_muscle": {
+  "pl": "m. biodrowo-guziczny",
+  "en": "Iliococcygeus muscle"
+ },
+ "Iliocostalis_colli_muscle": {
+  "pl": "m. biodrowo-żebrowy szyi",
+  "en": "Iliocostalis colli muscle"
+ },
+ "Iliocostalis_lumborum_muscle": {
+  "pl": "m. biodrowo-żebrowy lędźwi",
+  "en": "Iliocostalis lumborum muscle"
+ },
+ "Iliocostalis_thoracis_muscle": {
+  "pl": "m. biodrowo-żebrowy klatki piersiowej",
+  "en": "Iliocostalis thoracis muscle"
+ },
+ "Iliolumbar_ligament": {
+  "pl": "więzadło biodrowo-lędźwiowe",
+  "en": "Iliolumbar ligament"
+ },
+ "Incus": {
+  "pl": "kowadełko",
+  "en": "Incus"
+ },
+ "Inferior_gemellus_muscle": {
+  "pl": "m. bliźniaczy dolny",
+  "en": "Inferior gemellus muscle"
+ },
+ "Inferior_glenohumeral_ligament": {
+  "pl": "więzadło obrąbkowo-ramienne dolne",
+  "en": "Inferior glenohumeral ligament"
+ },
+ "Inferior_head_of_lateral_pterygoid_muscle": {
+  "pl": "głowa dolna m. skrzydłowego bocznego",
+  "en": "Inferior head of lateral pterygoid muscle"
+ },
+ "Inferior_nasal_concha_bone": {
+  "pl": "małżowina nosowa dolna",
+  "en": "Inferior nasal concha bone"
+ },
+ "Inferior_oblique_muscle": {
+  "pl": "m. skośny dolny (oka)",
+  "en": "Inferior oblique muscle"
+ },
+ "Inferior_pubic_ligament": {
+  "pl": "więzadło łonowe dolne",
+  "en": "Inferior pubic ligament"
+ },
+ "Inferior_rectus_muscle": {
+  "pl": "m. prosty dolny (oka)",
+  "en": "Inferior rectus muscle"
+ },
+ "Inferior_tarsus": {
+  "pl": "tarczka powieki dolnej",
+  "en": "Inferior tarsus"
+ },
+ "Inferior_transverse_scapular_ligament": {
+  "pl": "więzadło poprzeczne łopatki dolne",
+  "en": "Inferior transverse scapular ligament"
+ },
+ "Infrapatellar_fat_pad": {
+  "pl": "ciało tłuszczowe podrzepkowe (Hoffy)",
+  "en": "Infrapatellar fat pad"
+ },
+ "Infraspinatus_muscle": {
+  "pl": "m. podgrzebieniowy",
+  "en": "Infraspinatus muscle"
+ },
+ "Inguinal_ligament": {
+  "pl": "więzadło pachwinowe",
+  "en": "Inguinal ligament"
+ },
+ "Innermost_intercostal_muscles": {
+  "pl": "mm. międzyżebrowe najgłębsze",
+  "en": "Innermost intercostal muscles"
+ },
+ "Interclavicular_ligament": {
+  "pl": "więzadło międzyobojczykowe",
+  "en": "Interclavicular ligament"
+ },
+ "Intercornual_ligament": {
+  "pl": "więzadło międzyrożne",
+  "en": "Intercornual ligament"
+ },
+ "Intercuneiform_interosseus_ligaments": {
+  "pl": "więzadła międzykostne międzyklinowe",
+  "en": "Intercuneiform interosseus ligaments"
+ },
+ "Intermediate_cuneiform_bone": {
+  "pl": "kość klinowata pośrednia",
+  "en": "Intermediate cuneiform bone"
+ },
+ "Internal_abdominal_oblique": {
+  "pl": "m. skośny wewnętrzny brzucha",
+  "en": "Internal abdominal oblique"
+ },
+ "Internal_intercosatlis_muscles": {
+  "pl": "mm. międzyżebrowe wewnętrzne",
+  "en": "Internal intercosatlis muscles"
+ },
+ "Internal_intercostal_membrane": {
+  "pl": "błona międzyżebrowa wewnętrzna",
+  "en": "Internal intercostal membrane"
+ },
+ "Interosseus_membrane_of_forearm": {
+  "pl": "błona międzykostna przedramienia",
+  "en": "Interosseus membrane of forearm"
+ },
+ "Interosseus_membrane_of_leg": {
+  "pl": "błona międzykostna goleni",
+  "en": "Interosseus membrane of leg"
+ },
+ "Interosseus_metacarpal_ligaments": {
+  "pl": "więzadła międzykostne śródręcza",
+  "en": "Interosseus metacarpal ligaments"
+ },
+ "Interosseus_sacro-iliac_ligament": {
+  "pl": "więzadło międzykostne krzyżowo-biodrowe",
+  "en": "Interosseus sacro-iliac ligament"
+ },
+ "Interpubic_disc": {
+  "pl": "krążek międzyłonowy",
+  "en": "Interpubic disc"
+ },
+ "Intersesamoid_ligament": {
+  "pl": "więzadło międzytrzeszczkowe",
+  "en": "Intersesamoid ligament"
+ },
+ "Interspinales_colli_muscles": {
+  "pl": "mm. międzykolcowe szyi",
+  "en": "Interspinales colli muscles"
+ },
+ "Interspinales_lumborum_muscles": {
+  "pl": "mm. międzykolcowe lędźwi",
+  "en": "Interspinales lumborum muscles"
+ },
+ "Interspinales_thoracis_muscle": {
+  "pl": "mm. międzykolcowe klatki piersiowej",
+  "en": "Interspinales thoracis muscle"
+ },
+ "Interspinous_ligaments": {
+  "pl": "więzadła międzykolcowe",
+  "en": "Interspinous ligaments"
+ },
+ "Intertransverse_ligament": {
+  "pl": "więzadło międzypoprzeczne",
+  "en": "Intertransverse ligament"
+ },
+ "Intervertebral_disc_C2-C3": {
+  "pl": "krążek międzykręgowy C2-C3",
+  "en": "Intervertebral disc C2-C3"
+ },
+ "Intervertebral_disc_C3-C4": {
+  "pl": "krążek międzykręgowy C3-C4",
+  "en": "Intervertebral disc C3-C4"
+ },
+ "Intervertebral_disc_C4-C5": {
+  "pl": "krążek międzykręgowy C4-C5",
+  "en": "Intervertebral disc C4-C5"
+ },
+ "Intervertebral_disc_C5-C6": {
+  "pl": "krążek międzykręgowy C5-C6",
+  "en": "Intervertebral disc C5-C6"
+ },
+ "Intervertebral_disc_C6-C7": {
+  "pl": "krążek międzykręgowy C6-C7",
+  "en": "Intervertebral disc C6-C7"
+ },
+ "Intervertebral_disc_C7-T1": {
+  "pl": "krążek międzykręgowy C7-Th1",
+  "en": "Intervertebral disc C7-T1"
+ },
+ "Intervertebral_disc_L1-L2": {
+  "pl": "krążek międzykręgowy L1-L2",
+  "en": "Intervertebral disc L1-L2"
+ },
+ "Intervertebral_disc_L2-L3": {
+  "pl": "krążek międzykręgowy L2-L3",
+  "en": "Intervertebral disc L2-L3"
+ },
+ "Intervertebral_disc_L3-L4": {
+  "pl": "krążek międzykręgowy L3-L4",
+  "en": "Intervertebral disc L3-L4"
+ },
+ "Intervertebral_disc_L4-L5": {
+  "pl": "krążek międzykręgowy L4-L5",
+  "en": "Intervertebral disc L4-L5"
+ },
+ "Intervertebral_disc_L5-S1": {
+  "pl": "krążek międzykręgowy L5-S1",
+  "en": "Intervertebral disc L5-S1"
+ },
+ "Intervertebral_disc_T1-T2": {
+  "pl": "krążek międzykręgowy Th1-Th2",
+  "en": "Intervertebral disc T1-T2"
+ },
+ "Intervertebral_disc_T10-T11": {
+  "pl": "krążek międzykręgowy Th10-Th11",
+  "en": "Intervertebral disc T10-T11"
+ },
+ "Intervertebral_disc_T11-T12": {
+  "pl": "krążek międzykręgowy Th11-Th12",
+  "en": "Intervertebral disc T11-T12"
+ },
+ "Intervertebral_disc_T12-L1": {
+  "pl": "krążek międzykręgowy Th12-L1",
+  "en": "Intervertebral disc T12-L1"
+ },
+ "Intervertebral_disc_T2-T3": {
+  "pl": "krążek międzykręgowy Th2-Th3",
+  "en": "Intervertebral disc T2-T3"
+ },
+ "Intervertebral_disc_T3-T4": {
+  "pl": "krążek międzykręgowy Th3-Th4",
+  "en": "Intervertebral disc T3-T4"
+ },
+ "Intervertebral_disc_T4-T5": {
+  "pl": "krążek międzykręgowy Th4-Th5",
+  "en": "Intervertebral disc T4-T5"
+ },
+ "Intervertebral_disc_T5-T6": {
+  "pl": "krążek międzykręgowy Th5-Th6",
+  "en": "Intervertebral disc T5-T6"
+ },
+ "Intervertebral_disc_T6-T7": {
+  "pl": "krążek międzykręgowy Th6-Th7",
+  "en": "Intervertebral disc T6-T7"
+ },
+ "Intervertebral_disc_T7-T8": {
+  "pl": "krążek międzykręgowy Th7-Th8",
+  "en": "Intervertebral disc T7-T8"
+ },
+ "Intervertebral_disc_T8-T9": {
+  "pl": "krążek międzykręgowy Th8-Th9",
+  "en": "Intervertebral disc T8-T9"
+ },
+ "Intervertebral_disc_T9-T10": {
+  "pl": "krążek międzykręgowy Th9-Th10",
+  "en": "Intervertebral disc T9-T10"
+ },
+ "Intervertebral_symphysis-Lumbar_vertebrae": {
+  "pl": "Intervertebral symphysis-Lumbar vertebrae",
+  "en": "Intervertebral symphysis-Lumbar vertebrae"
+ },
+ "Intra-articular_ligament_of_head_of_rib": {
+  "pl": "więzadło śródstawowe głowy żebra",
+  "en": "Intra-articular ligament of head of rib"
+ },
+ "Ischiofemoral_ligament": {
+  "pl": "więzadło kulszowo-udowe",
+  "en": "Ischiofemoral ligament"
+ },
+ "L1": {
+  "pl": "krąg lędźwiowy L1",
+  "en": "L1"
+ },
+ "L2": {
+  "pl": "krąg lędźwiowy L2",
+  "en": "L2"
+ },
+ "L4": {
+  "pl": "krąg lędźwiowy L4",
+  "en": "L4"
+ },
+ "L5": {
+  "pl": "krąg lędźwiowy L5",
+  "en": "L5"
+ },
+ "LAcrimal_bone": {
+  "pl": "kość łzowa",
+  "en": "LAcrimal bone"
+ },
+ "Lateral_cuneiform_bone": {
+  "pl": "kość klinowata boczna",
+  "en": "Lateral cuneiform bone"
+ },
+ "Lateral_head_of_flexor_hallucis_brevis": {
+  "pl": "głowa boczna m. zginacza krótkiego palucha",
+  "en": "Lateral head of flexor hallucis brevis"
+ },
+ "Lateral_head_of_gastrocnemius": {
+  "pl": "głowa boczna m. brzuchatego łydki",
+  "en": "Lateral head of gastrocnemius"
+ },
+ "Lateral_head_of_triceps_brachii_muscle": {
+  "pl": "głowa boczna m. trójgłowego ramienia",
+  "en": "Lateral head of triceps brachii muscle"
+ },
+ "Lateral_meniscus": {
+  "pl": "łąkotka boczna",
+  "en": "Lateral meniscus"
+ },
+ "Lateral_patellar_retinaculum": {
+  "pl": "troczek rzepki boczny",
+  "en": "Lateral patellar retinaculum"
+ },
+ "Lateral_rectus_muscle": {
+  "pl": "m. prosty boczny (oka)",
+  "en": "Lateral rectus muscle"
+ },
+ "Lateral_talocalcaneal_ligament": {
+  "pl": "więzadło skokowo-piętowe boczne",
+  "en": "Lateral talocalcaneal ligament"
+ },
+ "Latissimus_dorsi_muscle": {
+  "pl": "m. najszerszy grzbietu",
+  "en": "Latissimus dorsi muscle"
+ },
+ "Left_parietal_bone": {
+  "pl": "kość ciemieniowa lewa",
+  "en": "Left parietal bone"
+ },
+ "Levator_anguli_oris": {
+  "pl": "m. dźwigacz kąta ust",
+  "en": "Levator anguli oris"
+ },
+ "Levator_labii_superioris": {
+  "pl": "m. dźwigacz wargi górnej",
+  "en": "Levator labii superioris"
+ },
+ "Levator_nasolabialis": {
+  "pl": "m. dźwigacz wargi górnej i skrzydła nosa",
+  "en": "Levator nasolabialis"
+ },
+ "Levator_palpebrae_superioris": {
+  "pl": "m. dźwigacz powieki górnej",
+  "en": "Levator palpebrae superioris"
+ },
+ "Levator_scapulae": {
+  "pl": "m. dźwigacz łopatki",
+  "en": "Levator scapulae"
+ },
+ "Levatores_breves_costarum": {
+  "pl": "mm. dźwigacze żeber krótkie",
+  "en": "Levatores breves costarum"
+ },
+ "Levatores_longi_costarum": {
+  "pl": "mm. dźwigacze żeber długie",
+  "en": "Levatores longi costarum"
+ },
+ "Ligament_of_head_of_femur": {
+  "pl": "więzadło głowy kości udowej",
+  "en": "Ligament of head of femur"
+ },
+ "Ligamenta_flava": {
+  "pl": "więzadła żółte",
+  "en": "Ligamenta flava"
+ },
+ "Linea_alba": {
+  "pl": "kresa biała",
+  "en": "Linea alba"
+ },
+ "Long_head_of_biceps_brachii": {
+  "pl": "głowa długa m. dwugłowego ramienia (ścięgno)",
+  "en": "Long head of biceps brachii"
+ },
+ "Long_head_of_biceps_brachii_muscle": {
+  "pl": "głowa długa m. dwugłowego ramienia",
+  "en": "Long head of biceps brachii muscle"
+ },
+ "Long_head_of_biceps_femoris_muscle": {
+  "pl": "głowa długa m. dwugłowego uda",
+  "en": "Long head of biceps femoris muscle"
+ },
+ "Long_plantar_ligament": {
+  "pl": "więzadło podeszwowe długie",
+  "en": "Long plantar ligament"
+ },
+ "Longissimus_capitis": {
+  "pl": "m. najdłuższy głowy",
+  "en": "Longissimus capitis"
+ },
+ "Longissimus_colli_muscle": {
+  "pl": "m. najdłuższy szyi",
+  "en": "Longissimus colli muscle"
+ },
+ "Longissimus_thoracis": {
+  "pl": "m. najdłuższy klatki piersiowej",
+  "en": "Longissimus thoracis"
+ },
+ "Longissimus_thoracis_muscle": {
+  "pl": "m. najdłuższy klatki piersiowej",
+  "en": "Longissimus thoracis muscle"
+ },
+ "Longus_capitis_muscle": {
+  "pl": "m. długi głowy",
+  "en": "Longus capitis muscle"
+ },
+ "Longus_colli_muscle": {
+  "pl": "m. długi szyi",
+  "en": "Longus colli muscle"
+ },
+ "Lumbrical_muscles_of_foot": {
+  "pl": "mm. glistowate stopy",
+  "en": "Lumbrical muscles of foot"
+ },
+ "Lumbricals_muscles_of_hand": {
+  "pl": "mm. glistowate ręki",
+  "en": "Lumbricals muscles of hand"
+ },
+ "Lunate_bone": {
+  "pl": "kość księżycowata",
+  "en": "Lunate bone"
+ },
+ "Lunotriquetral_interosseus_ligament": {
+  "pl": "więzadło międzykostne księżycowato-trójgraniaste",
+  "en": "Lunotriquetral interosseus ligament"
+ },
+ "Major_alar_cartilage": {
+  "pl": "chrząstka skrzydłowa większa",
+  "en": "Major alar cartilage"
+ },
+ "Malleus": {
+  "pl": "młoteczek",
+  "en": "Malleus"
+ },
+ "Mandible": {
+  "pl": "żuchwa",
+  "en": "Mandible"
+ },
+ "Manubrium_of_sternum": {
+  "pl": "rękojeść mostka",
+  "en": "Manubrium of sternum"
+ },
+ "Maxilla": {
+  "pl": "szczęka",
+  "en": "Maxilla"
+ },
+ "Medial_cuneiform_bone": {
+  "pl": "kość klinowata przyśrodkowa",
+  "en": "Medial cuneiform bone"
+ },
+ "Medial_head_of_biceps_brachii_muscle": {
+  "pl": "głowa przyśrodkowa m. dwugłowego ramienia",
+  "en": "Medial head of biceps brachii muscle"
+ },
+ "Medial_head_of_flexor_hallucis_brevis": {
+  "pl": "głowa przyśrodkowa m. zginacza krótkiego palucha",
+  "en": "Medial head of flexor hallucis brevis"
+ },
+ "Medial_head_of_gastrocnemius": {
+  "pl": "głowa przyśrodkowa m. brzuchatego łydki",
+  "en": "Medial head of gastrocnemius"
+ },
+ "Medial_meniscus": {
+  "pl": "łąkotka przyśrodkowa",
+  "en": "Medial meniscus"
+ },
+ "Medial_patellar_retinaculum": {
+  "pl": "troczek rzepki przyśrodkowy",
+  "en": "Medial patellar retinaculum"
+ },
+ "Medial_pterygoid_muscle": {
+  "pl": "m. skrzydłowy przyśrodkowy",
+  "en": "Medial pterygoid muscle"
+ },
+ "Medial_rectus_muscle": {
+  "pl": "m. prosty przyśrodkowy (oka)",
+  "en": "Medial rectus muscle"
+ },
+ "Medial_talocalcaneal_ligament": {
+  "pl": "więzadło skokowo-piętowe przyśrodkowe",
+  "en": "Medial talocalcaneal ligament"
+ },
+ "Meniscopatellar_ligament": {
+  "pl": "więzadło łąkotkowo-rzepkowe",
+  "en": "Meniscopatellar ligament"
+ },
+ "Mentalis_muscle": {
+  "pl": "m. bródkowy",
+  "en": "Mentalis muscle"
+ },
+ "Metatarsal_interosseus_ligaments": {
+  "pl": "więzadła międzykostne śródstopia",
+  "en": "Metatarsal interosseus ligaments"
+ },
+ "Middle_glenohumeral_ligament": {
+  "pl": "więzadło obrąbkowo-ramienne środkowe",
+  "en": "Middle glenohumeral ligament"
+ },
+ "Middle_phalanx_of_2d_finger": {
+  "pl": "paliczek środkowy palca II ręki",
+  "en": "Middle phalanx of 2d finger"
+ },
+ "Middle_phalanx_of_2d_finger_of_foot": {
+  "pl": "paliczek środkowy palca II stopy",
+  "en": "Middle phalanx of 2d finger of foot"
+ },
+ "Middle_phalanx_of_3rd_finger": {
+  "pl": "paliczek środkowy palca III ręki",
+  "en": "Middle phalanx of 3rd finger"
+ },
+ "Middle_phalanx_of_3rd_finger_of_foot": {
+  "pl": "paliczek środkowy palca III stopy",
+  "en": "Middle phalanx of 3rd finger of foot"
+ },
+ "Middle_phalanx_of_4th_finger": {
+  "pl": "paliczek środkowy palca IV ręki",
+  "en": "Middle phalanx of 4th finger"
+ },
+ "Middle_phalanx_of_4th_finger_of_foot": {
+  "pl": "paliczek środkowy palca IV stopy",
+  "en": "Middle phalanx of 4th finger of foot"
+ },
+ "Middle_phalanx_of_5th_finger": {
+  "pl": "paliczek środkowy palca V ręki",
+  "en": "Middle phalanx of 5th finger"
+ },
+ "Middle_phalanx_of_5th_finger_of_foot": {
+  "pl": "paliczek środkowy palca V stopy",
+  "en": "Middle phalanx of 5th finger of foot"
+ },
+ "Minor_alar_cartilage": {
+  "pl": "chrząstka skrzydłowa mniejsza",
+  "en": "Minor alar cartilage"
+ },
+ "Minor_alar_cartilages": {
+  "pl": "chrząstki skrzydłowe mniejsze",
+  "en": "Minor alar cartilages"
+ },
+ "Multifidus_colli_muscle": {
+  "pl": "m. wielodzielny szyi",
+  "en": "Multifidus colli muscle"
+ },
+ "Multifidus_lumborum": {
+  "pl": "m. wielodzielny lędźwi",
+  "en": "Multifidus lumborum"
+ },
+ "Multifidus_thoracis": {
+  "pl": "m. wielodzielny klatki piersiowej",
+  "en": "Multifidus thoracis"
+ },
+ "Mylohyoid_muscle": {
+  "pl": "m. żuchwowo-gnykowy",
+  "en": "Mylohyoid muscle"
+ },
+ "Nasal_bone": {
+  "pl": "kość nosowa",
+  "en": "Nasal bone"
+ },
+ "Nasal_septal_cartilage": {
+  "pl": "chrząstka przegrody nosa",
+  "en": "Nasal septal cartilage"
+ },
+ "Nasalis_muscle": {
+  "pl": "m. nosowy",
+  "en": "Nasalis muscle"
+ },
+ "Navicular_bone": {
+  "pl": "kość łódkowata",
+  "en": "Navicular bone"
+ },
+ "Nuchal_ligament": {
+  "pl": "więzadło karkowe",
+  "en": "Nuchal ligament"
+ },
+ "Nucleus_pulposus": {
+  "pl": "jądro miażdżyste",
+  "en": "Nucleus pulposus"
+ },
+ "Oblique_cord": {
+  "pl": "struna skośna",
+  "en": "Oblique cord"
+ },
+ "Oblique_head_of_adductor_hallucis": {
+  "pl": "głowa skośna m. przywodziciela palucha",
+  "en": "Oblique head of adductor hallucis"
+ },
+ "Oblique_head_of_adductor_policis_brevis": {
+  "pl": "głowa skośna m. przywodziciela kciuka",
+  "en": "Oblique head of adductor policis brevis"
+ },
+ "Oblique_popliteal_ligament": {
+  "pl": "więzadło podkolanowe skośne",
+  "en": "Oblique popliteal ligament"
+ },
+ "Obliquus_inferior_capitis_muscle": {
+  "pl": "m. skośny dolny głowy",
+  "en": "Obliquus inferior capitis muscle"
+ },
+ "Obliquus_superior_capitis_muscle": {
+  "pl": "m. skośny górny głowy",
+  "en": "Obliquus superior capitis muscle"
+ },
+ "Obturator_externus": {
+  "pl": "m. zasłaniacz zewnętrzny",
+  "en": "Obturator externus"
+ },
+ "Obturator_internus": {
+  "pl": "m. zasłaniacz wewnętrzny",
+  "en": "Obturator internus"
+ },
+ "Obturator_membrane": {
+  "pl": "błona zasłonowa",
+  "en": "Obturator membrane"
+ },
+ "Occipital_bone": {
+  "pl": "kość potyliczna",
+  "en": "Occipital bone"
+ },
+ "Occipitalis": {
+  "pl": "m. potyliczny",
+  "en": "Occipitalis"
+ },
+ "Omohyoid_muscle": {
+  "pl": "m. łopatkowo-gnykowy",
+  "en": "Omohyoid muscle"
+ },
+ "Opponens_digiti_minimi_of_foot": {
+  "pl": "m. przeciwstawiacz palca małego stopy",
+  "en": "Opponens digiti minimi of foot"
+ },
+ "Opponens_digiti_minimi_of_hand": {
+  "pl": "m. przeciwstawiacz palca małego ręki",
+  "en": "Opponens digiti minimi of hand"
+ },
+ "Opponens_pollicis_muscle": {
+  "pl": "m. przeciwstawiacz kciuka",
+  "en": "Opponens pollicis muscle"
+ },
+ "Orbicularis_oris": {
+  "pl": "m. okrężny ust",
+  "en": "Orbicularis oris"
+ },
+ "Orbital_part_of_orbicularis_oculi": {
+  "pl": "część oczodołowa m. okrężnego oka",
+  "en": "Orbital part of orbicularis oculi"
+ },
+ "Palatine_bone": {
+  "pl": "kość podniebienna",
+  "en": "Palatine bone"
+ },
+ "Palmar_capitohamate_ligament": {
+  "pl": "więzadło główkowato-haczykowate dłoniowe",
+  "en": "Palmar capitohamate ligament"
+ },
+ "Palmar_carpometacarpal_ligaments": {
+  "pl": "więzadła nadgarstkowo-śródręczne dłoniowe",
+  "en": "Palmar carpometacarpal ligaments"
+ },
+ "Palmar_interossei_muscles_of_hand": {
+  "pl": "mm. międzykostne dłoniowe ręki",
+  "en": "Palmar interossei muscles of hand"
+ },
+ "Palmar_interphalangeal_ligaments": {
+  "pl": "więzadła dłoniowe stawów międzypaliczkowych",
+  "en": "Palmar interphalangeal ligaments"
+ },
+ "Palmar_lunotriquetral_ligament": {
+  "pl": "więzadło księżycowato-trójgraniaste dłoniowe",
+  "en": "Palmar lunotriquetral ligament"
+ },
+ "Palmar_metacarpal_ligaments": {
+  "pl": "więzadła śródręczne dłoniowe",
+  "en": "Palmar metacarpal ligaments"
+ },
+ "Palmar_radio-ulnar_ligament": {
+  "pl": "więzadło promieniowo-łokciowe dłoniowe",
+  "en": "Palmar radio-ulnar ligament"
+ },
+ "Palmar_scaphotriquetral_ligament": {
+  "pl": "więzadło łódeczkowo-trójgraniaste dłoniowe",
+  "en": "Palmar scaphotriquetral ligament"
+ },
+ "Palmar_trapezoideocapitate_ligament": {
+  "pl": "więzadło czworoboczno-główkowate dłoniowe",
+  "en": "Palmar trapezoideocapitate ligament"
+ },
+ "Palmaris_longus_muscle": {
+  "pl": "m. dłoniowy długi",
+  "en": "Palmaris longus muscle"
+ },
+ "Palpebral_part_of_orbicularis_oculi": {
+  "pl": "część powiekowa m. okrężnego oka",
+  "en": "Palpebral part of orbicularis oculi"
+ },
+ "Parietal_bone": {
+  "pl": "kość ciemieniowa",
+  "en": "Parietal bone"
+ },
+ "Patella": {
+  "pl": "rzepka",
+  "en": "Patella"
+ },
+ "Pectineus_muscle": {
+  "pl": "m. grzebieniowy",
+  "en": "Pectineus muscle"
+ },
+ "Pectoralis_minor_muscle": {
+  "pl": "m. piersiowy mniejszy",
+  "en": "Pectoralis minor muscle"
+ },
+ "Piriformis_muscle": {
+  "pl": "m. gruszkowaty",
+  "en": "Piriformis muscle"
+ },
+ "Pisiform_bone": {
+  "pl": "kość grochowata",
+  "en": "Pisiform bone"
+ },
+ "Pisohamate_ligament": {
+  "pl": "więzadło grochowato-haczykowate",
+  "en": "Pisohamate ligament"
+ },
+ "Pisometacarpal_ligament": {
+  "pl": "więzadło grochowato-śródręczne",
+  "en": "Pisometacarpal ligament"
+ },
+ "Pisotriquetral_ligament": {
+  "pl": "więzadło grochowato-trójgraniaste",
+  "en": "Pisotriquetral ligament"
+ },
+ "Plantar_calcaneocuboid_ligament": {
+  "pl": "więzadło piętowo-sześcienne podeszwowe",
+  "en": "Plantar calcaneocuboid ligament"
+ },
+ "Plantar_calcaneonavivular_ligament": {
+  "pl": "więzadło piętowo-łódkowe podeszwowe",
+  "en": "Plantar calcaneonavivular ligament"
+ },
+ "Plantar_cuboidonavicular_ligament": {
+  "pl": "więzadło sześcienno-łódkowe podeszwowe",
+  "en": "Plantar cuboidonavicular ligament"
+ },
+ "Plantar_cuneocuboid_ligament": {
+  "pl": "więzadło klinowo-sześcienne podeszwowe",
+  "en": "Plantar cuneocuboid ligament"
+ },
+ "Plantar_cuneonavicular_ligaments": {
+  "pl": "więzadła klinowo-łódkowe podeszwowe",
+  "en": "Plantar cuneonavicular ligaments"
+ },
+ "Plantar_intercuneiform_ligaments": {
+  "pl": "więzadła międzyklinowe podeszwowe",
+  "en": "Plantar intercuneiform ligaments"
+ },
+ "Plantar_interossei_muscles": {
+  "pl": "mm. międzykostne podeszwowe",
+  "en": "Plantar interossei muscles"
+ },
+ "Plantar_interphalangeal_ligaments": {
+  "pl": "więzadła podeszwowe stawów międzypaliczkowych",
+  "en": "Plantar interphalangeal ligaments"
+ },
+ "Plantar_metatarsal_ligaments": {
+  "pl": "więzadła śródstopne podeszwowe",
+  "en": "Plantar metatarsal ligaments"
+ },
+ "Plantar_metatarsophalangeal_ligaments": {
+  "pl": "więzadła podeszwowe stawów śródstopno-paliczkowych",
+  "en": "Plantar metatarsophalangeal ligaments"
+ },
+ "Plantar_tarsometatarsal_ligaments": {
+  "pl": "więzadła stępowo-śródstopne podeszwowe",
+  "en": "Plantar tarsometatarsal ligaments"
+ },
+ "Plantaris_muscle": {
+  "pl": "m. podeszwowy",
+  "en": "Plantaris muscle"
+ },
+ "Platysma": {
+  "pl": "m. szeroki szyi (platysma)",
+  "en": "Platysma"
+ },
+ "Popliteofibular_ligament": {
+  "pl": "więzadło podkolanowo-strzałkowe",
+  "en": "Popliteofibular ligament"
+ },
+ "Popliteus_muscle": {
+  "pl": "m. podkolanowy",
+  "en": "Popliteus muscle"
+ },
+ "Posterior_belly_of_digastric_muscle": {
+  "pl": "brzusiec tylny m. dwubrzuścowego",
+  "en": "Posterior belly of digastric muscle"
+ },
+ "Posterior_cruciate_ligament": {
+  "pl": "więzadło krzyżowe tylne",
+  "en": "Posterior cruciate ligament"
+ },
+ "Posterior_ligament_of_fibular_head": {
+  "pl": "więzadło tylne głowy strzałki",
+  "en": "Posterior ligament of fibular head"
+ },
+ "Posterior_longitudinal_ligament": {
+  "pl": "więzadło podłużne tylne",
+  "en": "Posterior longitudinal ligament"
+ },
+ "Posterior_meniscotibial_ligament_(Lateral_meniscus)": {
+  "pl": "więzadło łąkotkowo-piszczelowe tylne (łąkotka boczna)",
+  "en": "Posterior meniscotibial ligament (Lateral meniscus)"
+ },
+ "Posterior_meniscotibial_ligament_(Medial_meniscus)": {
+  "pl": "więzadło łąkotkowo-piszczelowe tylne (łąkotka przyśrodkowa)",
+  "en": "Posterior meniscotibial ligament (Medial meniscus)"
+ },
+ "Posterior_sacro-iliac_ligament": {
+  "pl": "więzadło krzyżowo-biodrowe tylne",
+  "en": "Posterior sacro-iliac ligament"
+ },
+ "Posterior_sternoclavicular_ligament": {
+  "pl": "więzadło mostkowo-obojczykowe tylne",
+  "en": "Posterior sternoclavicular ligament"
+ },
+ "Posterior_talocalcaneal_ligament": {
+  "pl": "więzadło skokowo-piętowe tylne",
+  "en": "Posterior talocalcaneal ligament"
+ },
+ "Posterior_talofibular_ligament": {
+  "pl": "więzadło skokowo-strzałkowe tylne",
+  "en": "Posterior talofibular ligament"
+ },
+ "Posterior_tibitalar_ligament": {
+  "pl": "więzadło piszczelowo-skokowe tylne",
+  "en": "Posterior tibitalar ligament"
+ },
+ "Procerus": {
+  "pl": "m. podłużny nosa (procerus)",
+  "en": "Procerus"
+ },
+ "Pronator_quadratus": {
+  "pl": "m. nawrotny czworoboczny",
+  "en": "Pronator quadratus"
+ },
+ "Proximal_phalanx_of_1st_finger": {
+  "pl": "paliczek bliższy palca I ręki",
+  "en": "Proximal phalanx of 1st finger"
+ },
+ "Proximal_phalanx_of_1st_finger_of_foot": {
+  "pl": "paliczek bliższy palca I stopy",
+  "en": "Proximal phalanx of 1st finger of foot"
+ },
+ "Proximal_phalanx_of_2d_finger": {
+  "pl": "paliczek bliższy palca II ręki",
+  "en": "Proximal phalanx of 2d finger"
+ },
+ "Proximal_phalanx_of_2d_finger_of_foot": {
+  "pl": "paliczek bliższy palca II stopy",
+  "en": "Proximal phalanx of 2d finger of foot"
+ },
+ "Proximal_phalanx_of_3rd_finger": {
+  "pl": "paliczek bliższy palca III ręki",
+  "en": "Proximal phalanx of 3rd finger"
+ },
+ "Proximal_phalanx_of_3rd_finger_of_foot": {
+  "pl": "paliczek bliższy palca III stopy",
+  "en": "Proximal phalanx of 3rd finger of foot"
+ },
+ "Proximal_phalanx_of_4th_finger": {
+  "pl": "paliczek bliższy palca IV ręki",
+  "en": "Proximal phalanx of 4th finger"
+ },
+ "Proximal_phalanx_of_4th_finger_of_foot": {
+  "pl": "paliczek bliższy palca IV stopy",
+  "en": "Proximal phalanx of 4th finger of foot"
+ },
+ "Proximal_phalanx_of_5th_finger": {
+  "pl": "paliczek bliższy palca V ręki",
+  "en": "Proximal phalanx of 5th finger"
+ },
+ "Proximal_phalanx_of_5th_finger_of_foot": {
+  "pl": "paliczek bliższy palca V stopy",
+  "en": "Proximal phalanx of 5th finger of foot"
+ },
+ "Psoas_muscle": {
+  "pl": "m. lędźwiowy większy",
+  "en": "Psoas muscle"
+ },
+ "Pubic_symphysis": {
+  "pl": "spojenie łonowe",
+  "en": "Pubic symphysis"
+ },
+ "Pubococcygeus_muscle": {
+  "pl": "m. łonowo-guziczny",
+  "en": "Pubococcygeus muscle"
+ },
+ "Pubofemoral_ligament": {
+  "pl": "więzadło łonowo-udowe",
+  "en": "Pubofemoral ligament"
+ },
+ "Puborectalis_muscle": {
+  "pl": "m. łonowo-odbytniczy",
+  "en": "Puborectalis muscle"
+ },
+ "Pyramidalis_muscle": {
+  "pl": "m. piramidowy",
+  "en": "Pyramidalis muscle"
+ },
+ "Quadrate_ligament": {
+  "pl": "więzadło czworoboczne",
+  "en": "Quadrate ligament"
+ },
+ "Quadratus_femoris_muscle": {
+  "pl": "m. czworoboczny uda",
+  "en": "Quadratus femoris muscle"
+ },
+ "Quadratus_lumborum_muscle": {
+  "pl": "m. czworoboczny lędźwi",
+  "en": "Quadratus lumborum muscle"
+ },
+ "Quadratus_plantae_muscle": {
+  "pl": "m. czworoboczny podeszwy",
+  "en": "Quadratus plantae muscle"
+ },
+ "Radial_collateral_ligament": {
+  "pl": "więzadło poboczne promieniowe",
+  "en": "Radial collateral ligament"
+ },
+ "Radial_collateral_ligament_of_wrist_joint": {
+  "pl": "więzadło poboczne promieniowe nadgarstka",
+  "en": "Radial collateral ligament of wrist joint"
+ },
+ "Radial_head_of_flexor_digitorum_superficialis": {
+  "pl": "głowa promieniowa m. zginacza powierzchownego palców",
+  "en": "Radial head of flexor digitorum superficialis"
+ },
+ "Radiate_carpal_ligament": {
+  "pl": "więzadło promieniste nadgarstka",
+  "en": "Radiate carpal ligament"
+ },
+ "Radiate_ligament_of_head_of_rib": {
+  "pl": "więzadło promieniste głowy żebra",
+  "en": "Radiate ligament of head of rib"
+ },
+ "Radiocapitate_ligament": {
+  "pl": "więzadło promieniowo-główkowate",
+  "en": "Radiocapitate ligament"
+ },
+ "Radioscaphocapitate_ligament": {
+  "pl": "więzadło promieniowo-łódeczkowo-główkowate",
+  "en": "Radioscaphocapitate ligament"
+ },
+ "Radius": {
+  "pl": "kość promieniowa",
+  "en": "Radius"
+ },
+ "Rectus_abdominis_muscle": {
+  "pl": "m. prosty brzucha",
+  "en": "Rectus abdominis muscle"
+ },
+ "Rectus_anterior_capitis_muscle": {
+  "pl": "m. prosty przedni głowy",
+  "en": "Rectus anterior capitis muscle"
+ },
+ "Rectus_femoris_muscle": {
+  "pl": "m. prosty uda",
+  "en": "Rectus femoris muscle"
+ },
+ "Rectus_lateralis_capitis_muscle": {
+  "pl": "m. prosty boczny głowy",
+  "en": "Rectus lateralis capitis muscle"
+ },
+ "Rectus_posterior_major_capitis_muscle": {
+  "pl": "m. prosty tylny większy głowy",
+  "en": "Rectus posterior major capitis muscle"
+ },
+ "Rectus_posterior_minor_capitis_muscle": {
+  "pl": "m. prosty tylny mniejszy głowy",
+  "en": "Rectus posterior minor capitis muscle"
+ },
+ "Rhomboid_major_muscle": {
+  "pl": "m. równoległoboczny większy",
+  "en": "Rhomboid major muscle"
+ },
+ "Rhomboid_minor_muscle": {
+  "pl": "m. równoległoboczny mniejszy",
+  "en": "Rhomboid minor muscle"
+ },
+ "Risorius": {
+  "pl": "m. śmiechowy",
+  "en": "Risorius"
+ },
+ "Sacrospinous_ligament": {
+  "pl": "więzadło krzyżowo-kolcowe",
+  "en": "Sacrospinous ligament"
+ },
+ "Sacrotuberous_ligament": {
+  "pl": "więzadło krzyżowo-guzowe",
+  "en": "Sacrotuberous ligament"
+ },
+ "Sacrum": {
+  "pl": "kość krzyżowa",
+  "en": "Sacrum"
+ },
+ "Sartorius_muscle": {
+  "pl": "m. krawiecki",
+  "en": "Sartorius muscle"
+ },
+ "Scalene_anterior_muscle": {
+  "pl": "m. pochyły przedni",
+  "en": "Scalene anterior muscle"
+ },
+ "Scalenus_medius_and_posterior": {
+  "pl": "m. pochyły środkowy i tylny",
+  "en": "Scalenus medius and posterior"
+ },
+ "Scalenus_posterior": {
+  "pl": "m. pochyły tylny",
+  "en": "Scalenus posterior"
+ },
+ "Scaphocapitate_ligament": {
+  "pl": "więzadło łódeczkowo-główkowate",
+  "en": "Scaphocapitate ligament"
+ },
+ "Scaphoid_bone": {
+  "pl": "kość łódeczkowata",
+  "en": "Scaphoid bone"
+ },
+ "Scapholunate_interosseus_ligament": {
+  "pl": "więzadło międzykostne łódeczkowo-księżycowate",
+  "en": "Scapholunate interosseus ligament"
+ },
+ "Scaphotrapeziotrapezoidal_ligament": {
+  "pl": "więzadło łódeczkowo-czworoboczne",
+  "en": "Scaphotrapeziotrapezoidal ligament"
+ },
+ "Scapula": {
+  "pl": "łopatka",
+  "en": "Scapula"
+ },
+ "Scapular_part_of_deltoid_uscle": {
+  "pl": "m. naramienny — część grzebieniowa (łopatkowa)",
+  "en": "Scapular part of deltoid uscle"
+ },
+ "Sclera-l": {
+  "pl": "Sclera-l",
+  "en": "Sclera-l"
+ },
+ "Sclera-r": {
+  "pl": "Sclera-r",
+  "en": "Sclera-r"
+ },
+ "Semimembranosus_muscle": {
+  "pl": "m. półbłoniasty",
+  "en": "Semimembranosus muscle"
+ },
+ "Semispinalis_colli_muscle": {
+  "pl": "m. półkolcowy szyi",
+  "en": "Semispinalis colli muscle"
+ },
+ "Semispinalis_thoracis": {
+  "pl": "m. półkolcowy klatki piersiowej",
+  "en": "Semispinalis thoracis"
+ },
+ "Semitendinosus_muscle": {
+  "pl": "m. półścięgnisty",
+  "en": "Semitendinosus muscle"
+ },
+ "Serratus_anterior_muscle": {
+  "pl": "m. zębaty przedni",
+  "en": "Serratus anterior muscle"
+ },
+ "Serratus_posterior_inferior_muscle": {
+  "pl": "m. zębaty tylny dolny",
+  "en": "Serratus posterior inferior muscle"
+ },
+ "Serratus_posterior_superior_muscle": {
+  "pl": "m. zębaty tylny górny",
+  "en": "Serratus posterior superior muscle"
+ },
+ "Sesamoid_bones_of_foot": {
+  "pl": "kości trzeszczkowate stopy",
+  "en": "Sesamoid bones of foot"
+ },
+ "Short_head_of_biceps_brachii": {
+  "pl": "głowa krótka m. dwugłowego ramienia",
+  "en": "Short head of biceps brachii"
+ },
+ "Short_head_of_biceps_femoris_muscle": {
+  "pl": "głowa krótka m. dwugłowego uda",
+  "en": "Short head of biceps femoris muscle"
+ },
+ "Soleus_muscle": {
+  "pl": "m. płaszczkowaty",
+  "en": "Soleus muscle"
+ },
+ "Sphenoid_bone": {
+  "pl": "kość klinowa",
+  "en": "Sphenoid bone"
+ },
+ "Spinalis_capitis_muscle": {
+  "pl": "m. kolcowy głowy",
+  "en": "Spinalis capitis muscle"
+ },
+ "Spinalis_colli_muscle": {
+  "pl": "m. kolcowy szyi",
+  "en": "Spinalis colli muscle"
+ },
+ "Spinalis_thoracis_muscle": {
+  "pl": "m. kolcowy klatki piersiowej",
+  "en": "Spinalis thoracis muscle"
+ },
+ "Splenius_capitis_muscle": {
+  "pl": "m. płatowaty głowy",
+  "en": "Splenius capitis muscle"
+ },
+ "Splenius_colli_muscle": {
+  "pl": "m. płatowaty szyi",
+  "en": "Splenius colli muscle"
+ },
+ "Stapes": {
+  "pl": "strzemiączko",
+  "en": "Stapes"
+ },
+ "Sternocleidomastoid_muscle": {
+  "pl": "m. mostkowo-obojczykowo-sutkowy",
+  "en": "Sternocleidomastoid muscle"
+ },
+ "Sternocostal_head_of_pectoralis_major_muscle": {
+  "pl": "m. piersiowy większy — głowa mostkowo-żebrowa",
+  "en": "Sternocostal head of pectoralis major muscle"
+ },
+ "Sternohyoid_muscle": {
+  "pl": "m. mostkowo-gnykowy",
+  "en": "Sternohyoid muscle"
+ },
+ "Sternothyroid_muscle": {
+  "pl": "m. mostkowo-tarczowy",
+  "en": "Sternothyroid muscle"
+ },
+ "Sternum": {
+  "pl": "mostek",
+  "en": "Sternum"
+ },
+ "Stylohyoid_muscle": {
+  "pl": "m. rylcowo-gnykowy",
+  "en": "Stylohyoid muscle"
+ },
+ "Subclavius_muscle": {
+  "pl": "m. podobojczykowy",
+  "en": "Subclavius muscle"
+ },
+ "Subscapular_muscle": {
+  "pl": "m. podłopatkowy",
+  "en": "Subscapular muscle"
+ },
+ "Superficial_head_of_flexor_pollicis_brevis": {
+  "pl": "głowa powierzchowna m. zginacza krótkiego kciuka",
+  "en": "Superficial head of flexor pollicis brevis"
+ },
+ "Superficial_head_of_pronator_teres_muscle": {
+  "pl": "głowa powierzchowna m. nawrotnego obłego",
+  "en": "Superficial head of pronator teres muscle"
+ },
+ "Superficial_part_of_masseter": {
+  "pl": "część powierzchowna m. żwacza",
+  "en": "Superficial part of masseter"
+ },
+ "Superficial_part_of_tibial_collateral_ligament": {
+  "pl": "część powierzchowna więzadła pobocznego piszczelowego",
+  "en": "Superficial part of tibial collateral ligament"
+ },
+ "Superior_gemellus_muscle": {
+  "pl": "m. bliźniaczy górny",
+  "en": "Superior gemellus muscle"
+ },
+ "Superior_glenohumeral_ligament": {
+  "pl": "więzadło obrąbkowo-ramienne górne",
+  "en": "Superior glenohumeral ligament"
+ },
+ "Superior_head_of_lateral_pterygoid_muscle": {
+  "pl": "głowa górna m. skrzydłowego bocznego",
+  "en": "Superior head of lateral pterygoid muscle"
+ },
+ "Superior_oblique_muscle": {
+  "pl": "m. skośny górny (oka)",
+  "en": "Superior oblique muscle"
+ },
+ "Superior_pubic_ligament": {
+  "pl": "więzadło łonowe górne",
+  "en": "Superior pubic ligament"
+ },
+ "Superior_rectus_muscle": {
+  "pl": "m. prosty górny (oka)",
+  "en": "Superior rectus muscle"
+ },
+ "Superior_tarsus": {
+  "pl": "tarczka powieki górnej",
+  "en": "Superior tarsus"
+ },
+ "Superior_transverse_scapular_ligament": {
+  "pl": "więzadło poprzeczne łopatki górne",
+  "en": "Superior transverse scapular ligament"
+ },
+ "Supinator": {
+  "pl": "m. odwracacz",
+  "en": "Supinator"
+ },
+ "Supraspinatus_muscle": {
+  "pl": "m. nadgrzebieniowy",
+  "en": "Supraspinatus muscle"
+ },
+ "Supraspinous_ligament": {
+  "pl": "więzadło nadkolcowe",
+  "en": "Supraspinous ligament"
+ },
+ "T10": {
+  "pl": "krąg piersiowy Th10",
+  "en": "T10"
+ },
+ "T11": {
+  "pl": "krąg piersiowy Th11",
+  "en": "T11"
+ },
+ "T12": {
+  "pl": "krąg piersiowy Th12",
+  "en": "T12"
+ },
+ "T1": {
+  "pl": "krąg piersiowy Th1",
+  "en": "T1"
+ },
+ "T2": {
+  "pl": "krąg piersiowy Th2",
+  "en": "T2"
+ },
+ "T3": {
+  "pl": "krąg piersiowy Th3",
+  "en": "T3"
+ },
+ "T4": {
+  "pl": "krąg piersiowy Th4",
+  "en": "T4"
+ },
+ "T5": {
+  "pl": "krąg piersiowy Th5",
+  "en": "T5"
+ },
+ "T6": {
+  "pl": "krąg piersiowy Th6",
+  "en": "T6"
+ },
+ "T7": {
+  "pl": "krąg piersiowy Th7",
+  "en": "T7"
+ },
+ "T8": {
+  "pl": "krąg piersiowy Th8",
+  "en": "T8"
+ },
+ "T9": {
+  "pl": "krąg piersiowy Th9",
+  "en": "T9"
+ },
+ "Talocalcaneal_interosseus_ligament": {
+  "pl": "więzadło międzykostne skokowo-piętowe",
+  "en": "Talocalcaneal interosseus ligament"
+ },
+ "Talonavicular_ligament": {
+  "pl": "więzadło skokowo-łódkowe",
+  "en": "Talonavicular ligament"
+ },
+ "Talus": {
+  "pl": "kość skokowa",
+  "en": "Talus"
+ },
+ "Temporal_bone": {
+  "pl": "kość skroniowa",
+  "en": "Temporal bone"
+ },
+ "Temporalis_muscle": {
+  "pl": "m. skroniowy",
+  "en": "Temporalis muscle"
+ },
+ "Temporoparietalis_muscle": {
+  "pl": "m. skroniowo-ciemieniowy",
+  "en": "Temporoparietalis muscle"
+ },
+ "Tensor_fasciae_latae": {
+  "pl": "m. naprężacz powięzi szerokiej",
+  "en": "Tensor fasciae latae"
+ },
+ "Teres_major_muscle": {
+  "pl": "m. obły większy",
+  "en": "Teres major muscle"
+ },
+ "Teres_minor_muscle": {
+  "pl": "m. obły mniejszy",
+  "en": "Teres minor muscle"
+ },
+ "Thyrohyoid_muscle": {
+  "pl": "m. tarczowo-gnykowy",
+  "en": "Thyrohyoid muscle"
+ },
+ "Thyroid_cartilage": {
+  "pl": "chrząstka tarczowata",
+  "en": "Thyroid cartilage"
+ },
+ "Tibia": {
+  "pl": "kość piszczelowa",
+  "en": "Tibia"
+ },
+ "Tibialis_anterior_muscle": {
+  "pl": "m. piszczelowy przedni",
+  "en": "Tibialis anterior muscle"
+ },
+ "Tibialis_posterior_muscle": {
+  "pl": "m. piszczelowy tylny",
+  "en": "Tibialis posterior muscle"
+ },
+ "Tibiocalcaneal_ligament": {
+  "pl": "więzadło piszczelowo-piętowe",
+  "en": "Tibiocalcaneal ligament"
+ },
+ "Tibionavicular_ligament": {
+  "pl": "więzadło piszczelowo-łódkowe",
+  "en": "Tibionavicular ligament"
+ },
+ "Transverse_acetabular_ligament": {
+  "pl": "więzadło poprzeczne panewki",
+  "en": "Transverse acetabular ligament"
+ },
+ "Transverse_head_of_adductor_hallucis": {
+  "pl": "głowa poprzeczna m. przywodziciela palucha",
+  "en": "Transverse head of adductor hallucis"
+ },
+ "Transverse_head_of_adductor_pollicis_brevis": {
+  "pl": "głowa poprzeczna m. przywodziciela kciuka",
+  "en": "Transverse head of adductor pollicis brevis"
+ },
+ "Transverse_humeral_ligament": {
+  "pl": "więzadło poprzeczne ramienia",
+  "en": "Transverse humeral ligament"
+ },
+ "Transverse_ligament_of_knee": {
+  "pl": "więzadło poprzeczne kolana",
+  "en": "Transverse ligament of knee"
+ },
+ "Transverse_part_of_iliofemoral_ligament": {
+  "pl": "część poprzeczna więzadła biodrowo-udowego",
+  "en": "Transverse part of iliofemoral ligament"
+ },
+ "Transverse_part_of_trapezius_muscle": {
+  "pl": "m. czworoboczny — część poprzeczna (środkowa)",
+  "en": "Transverse part of trapezius muscle"
+ },
+ "Transverse_tibiofibular_ligament": {
+  "pl": "więzadło poprzeczne piszczelowo-strzałkowe",
+  "en": "Transverse tibiofibular ligament"
+ },
+ "Transversus_abdominis_muscle": {
+  "pl": "m. poprzeczny brzucha",
+  "en": "Transversus abdominis muscle"
+ },
+ "Transversus_thoracis_muscle": {
+  "pl": "m. poprzeczny klatki piersiowej",
+  "en": "Transversus thoracis muscle"
+ },
+ "Trapeziotrapezoidal_interosseus_ligament": {
+  "pl": "więzadło międzykostne czworoboczno-czworoboczne",
+  "en": "Trapeziotrapezoidal interosseus ligament"
+ },
+ "Trapezium_bone": {
+  "pl": "kość czworoboczna większa",
+  "en": "Trapezium bone"
+ },
+ "Trapezoid_bone": {
+  "pl": "kość czworoboczna mniejsza",
+  "en": "Trapezoid bone"
+ },
+ "Trapezoid_ligament": {
+  "pl": "więzadło czworoboczne (trapezoidalne)",
+  "en": "Trapezoid ligament"
+ },
+ "Trapezoideocapitate_interosseus_ligament": {
+  "pl": "więzadło międzykostne czworoboczno-główkowate",
+  "en": "Trapezoideocapitate interosseus ligament"
+ },
+ "Triquetrocapitate_ligament": {
+  "pl": "więzadło trójgraniasto-główkowate",
+  "en": "Triquetrocapitate ligament"
+ },
+ "Triquetrohamate_ligament": {
+  "pl": "więzadło trójgraniasto-haczykowate",
+  "en": "Triquetrohamate ligament"
+ },
+ "Triquetrum_bone": {
+  "pl": "kość trójgraniasta",
+  "en": "Triquetrum bone"
+ },
+ "Triradiate_cartilage": {
+  "pl": "chrząstka Y (trójramienna)",
+  "en": "Triradiate cartilage"
+ },
+ "Trochlea_of_superior_oblique_muscle": {
+  "pl": "bloczek m. skośnego górnego",
+  "en": "Trochlea of superior oblique muscle"
+ },
+ "Ulna": {
+  "pl": "kość łokciowa",
+  "en": "Ulna"
+ },
+ "Ulnar_collateral_ligament": {
+  "pl": "więzadło poboczne łokciowe",
+  "en": "Ulnar collateral ligament"
+ },
+ "Ulnar_collateral_ligament_of_wrist_joint": {
+  "pl": "więzadło poboczne łokciowe nadgarstka",
+  "en": "Ulnar collateral ligament of wrist joint"
+ },
+ "Ulnar_head_of_extensor_carpi_ulnaris": {
+  "pl": "głowa łokciowa m. prostownika łokciowego nadgarstka",
+  "en": "Ulnar head of extensor carpi ulnaris"
+ },
+ "Ulnar_head_of_flexor_carpi_ulnaris": {
+  "pl": "głowa łokciowa m. zginacza łokciowego nadgarstka",
+  "en": "Ulnar head of flexor carpi ulnaris"
+ },
+ "Ulnocapitate_ligament": {
+  "pl": "więzadło łokciowo-główkowate",
+  "en": "Ulnocapitate ligament"
+ },
+ "Ulnolunate_ligament": {
+  "pl": "więzadło łokciowo-księżycowate",
+  "en": "Ulnolunate ligament"
+ },
+ "Ulnopisiform_ligament": {
+  "pl": "więzadło łokciowo-grochowate",
+  "en": "Ulnopisiform ligament"
+ },
+ "Ulnotriquetral_ligament": {
+  "pl": "więzadło łokciowo-trójgraniaste",
+  "en": "Ulnotriquetral ligament"
+ },
+ "Vastus_intermedius_muscle": {
+  "pl": "m. obszerny pośredni",
+  "en": "Vastus intermedius muscle"
+ },
+ "Vastus_lateralis_muscle": {
+  "pl": "m. obszerny boczny",
+  "en": "Vastus lateralis muscle"
+ },
+ "Vastus_medialis_muscle": {
+  "pl": "m. obszerny przyśrodkowy",
+  "en": "Vastus medialis muscle"
+ },
+ "Ventral_parts_of_lateral_intertransversarii_lumborum_muscles": {
+  "pl": "części brzuszne mm. międzypoprzecznych bocznych lędźwi",
+  "en": "Ventral parts of lateral intertransversarii lumborum muscles"
+ },
+ "Vertebra": {
+  "pl": "krąg",
+  "en": "Vertebra"
+ },
+ "Vomer": {
+  "pl": "lemiesz",
+  "en": "Vomer"
+ },
+ "Xiphoid_process": {
+  "pl": "wyrostek mieczykowaty",
+  "en": "Xiphoid process"
+ },
+ "Zona_orbicularis": {
+  "pl": "warstwa okrężna (torebki stawu biodrowego)",
+  "en": "Zona orbicularis"
+ },
+ "Zygomatic_bone": {
+  "pl": "kość jarzmowa",
+  "en": "Zygomatic bone"
+ },
+ "Zygomaticus_major_muscle": {
+  "pl": "m. jarzmowy większy",
+  "en": "Zygomaticus major muscle"
+ },
+ "Zygomaticus_minor_muscle": {
+  "pl": "m. jarzmowy mniejszy",
+  "en": "Zygomaticus minor muscle"
+ }
+}

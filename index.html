@@ -59,7 +59,27 @@
 // ---- set these to your filenames ----
 const MODEL = './decimated_body.glb';            // your decimated GLB
 const CARD  = './patient_card.json';     // your observations file
+const LABELS_FILE = './labels.json';     // mesh name -> { pl, en }
 // --------------------------------------
+
+// Polish labels keyed by clean structure id; resolved by substring, like highlighting.
+// (Three.js mangles mesh names on load, so we never key by the runtime mesh name.)
+let LABELS = {};
+let LABEL_KEYS = [];   // [normalizedLowerId, pl], longest id first so the most specific wins
+const labelsReady = fetch(LABELS_FILE).then(r => r.json()).then(j => {
+  LABELS = j;
+  LABEL_KEYS = Object.keys(j)
+    .map(k => [k.toLowerCase().replace(/[.\[\]:\/]/g, ''), j[k].pl])
+    .sort((a, b) => b[0].length - a[0].length);
+}).catch(() => {});
+// exact label for a known structure id (used for the highlighted/filtered list)
+function labelById(id) { const v = LABELS[id]; return v ? v.pl : id; }
+// best-effort label for a runtime mesh name (used for the full list)
+function labelForMesh(meshName) {
+  const n = meshName.toLowerCase();
+  for (const [k, pl] of LABEL_KEYS) { if (k && n.includes(k)) return pl; }
+  return meshName;
+}
 
 const sceneEl = document.getElementById('scene');
 const scene = new THREE.Scene();
@@ -93,7 +113,9 @@ new THREE.GLTFLoader().load(MODEL, (gltf) => {
   camera.lookAt(target);
 
   const nl = document.getElementById('namelist');
-  meshes.forEach(m => { const d = document.createElement('div'); d.textContent = m.name; d.onclick = () => highlightMeshes([m.name]); nl.appendChild(d); });
+  labelsReady.then(() => {
+    meshes.forEach(m => { const d = document.createElement('div'); d.textContent = labelForMesh(m.name); d.title = m.name; d.onclick = () => highlightMeshes([m.name]); nl.appendChild(d); });
+  });
   document.getElementById('status').textContent = `${meshes.length} structures loaded`;
 }, undefined, (e) => {
   document.getElementById('status').textContent = 'Model failed to load (serve over http, check filename)';
@@ -171,7 +193,7 @@ function highlightFromAffects(affects) {
     for (const { base, color } of affectColors) {
       if (mn.includes(base.toLowerCase())) {
         any = true;
-        matched.push({ m, color });
+        matched.push({ m, color, base });
         paint(m, true, color);
         return;
       }
@@ -181,12 +203,13 @@ function highlightFromAffects(affects) {
 
   const nl = document.getElementById('namelist');
   nl.innerHTML = '';
-  matched.forEach(({ m, color }) => {
+  matched.forEach(({ m, color, base }) => {
     const hex = '#' + color.toString(16).padStart(6, '0');
     const d = document.createElement('div');
     d.style.borderLeft = `3px solid ${hex}`;
     d.style.paddingLeft = '13px';
-    d.textContent = m.name;
+    d.textContent = labelById(base);
+    d.title = m.name;
     d.onclick = () => highlightMeshes([m.name]);
     nl.appendChild(d);
   });
